@@ -3,3 +3,18 @@ publish = "public"
 command = "npm run build"
 [build.environment]
   NODE_OPTIONS = "--max_old_space_size=16384"
+[functions]
+  # Directory with serverless functions, including background
+  # functions, to deploy. This is relative to the base directory
+  # if one has been set, or the root directory if
+  # a base hasn’t been set.
+  directory = "functions/"
+
+# Use [dev] to set configuration overrides for local 
+# development environments run using Netlify Dev - except 
+# for environment variables. Environment variables for Netlify 
+# Dev should be set under [context.dev.environment] instead.
+[dev]
+  command = "npm run build"
+  port = 8888
+  publish = "public"
