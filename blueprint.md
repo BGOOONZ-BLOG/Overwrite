@@ -9,6 +9,7 @@
 ##### [⇨WEBSITE🗺️⇦](https://overwritebgoonzblog.netlify.app) [⇨**Cloudfare-Backup**⇦](https://bgoonz-blog-2-0.pages.dev/) [⇨**search**⇦](https://www.algolia.com/realtime-search-demo/web-dev-resource-hub-9e6b8aa8-6106-44c5-9f59-ff3f9531abd4) [⇨**Backup Repo Deploy**⇦](https://bgoonzblog20-backup.netlify.app/#gsc.tab=0) [⇨**Github pages**⇦](https://bgoonz.github.io/BGOONZ_BLOG_2.0/) [⇨**Go To Site Wiki**⇦](https://github.com/bgoonz/Overwritewiki) [⇨**Gatsby Cloud Version**⇦](https://bgoonzblog20master.gatsbyjs.io/) [⇨**Vercel Version**⇦](https://bgoonz-blog-2-0.vercel.app/) [⇨**Cloudfare-Domain**⇦](www.webdevhub.us) [⇨**gh-pages**⇦](https://bgoonz.github.io/BGOONZ_BLOG_2.0/) [⇨**backup netlify deploy**⇦](https://bgoonz-blog20-backup.netlify.app/)
 
 ### Repos
+
 ### Repos
 
 [Alt Backup](https://github.com/BGOOONZ-BLOG/bgoonz-blog2.0-v-5)
@@ -44,8 +45,7 @@
 
 ##### []()
 
-docky src/components/**/*.js   --watch "src/components/**/*.js","./README.md"  --ignore "src/components/**/index.js"
-
+docky src/components/**/\*.js --watch "src/components/**/\*.js","./README.md" --ignore "src/components/\*\*/index.js"
 
 <https://dev2--bgoonz-blog.netlify.app/>
 
@@ -53,247 +53,197 @@ docky src/components/**/*.js   --watch "src/components/**/*.js","./README.md"  -
 
 ### Table Of Contents
 
-- [Bgoonz Blog Readme](#bgoonz-blog-readme)
-    - [⇨WEBSITE🗺️⇦](#website️)
-    - [CHANGELOG](#changelog)
-        - [⇨WEBSITE🗺️⇦ ⇨**Cloudfare-Backup**⇦ ⇨**search**⇦ ⇨**Backup Repo Deploy**⇦ ⇨**Github pages**⇦ ⇨**Go To Site Wiki**⇦ ⇨**Gatsby Cloud Version**⇦ ⇨**Vercel Version**⇦ ⇨**Cloudfare-Domain**⇦ ⇨**gh-pages**⇦ ⇨**backup netlify deploy**⇦](#website️-cloudfare-backup-search-backup-repo-deploy-github-pages-go-to-site-wiki-gatsby-cloud-version-vercel-version-cloudfare-domain-gh-pages-backup-netlify-deploy)
-    - [Repos](#repos)
-      - [⇨Privacy policy⇦](#privacy-policy)
-    - [Table Of Contents](#table-of-contents)
-  - [Useful Commands (internal use)](#useful-commands-internal-use)
-  - [Web Dev Setup](#web-dev-setup)
-  - [Basic Web Development Environment Setup](#basic-web-development-environment-setup)
-    - [Basic Web Development Environment Setup](#basic-web-development-environment-setup-1)
-      - [Windows Subsystem for Linux (WSL) and Ubuntu](#windows-subsystem-for-linux-wsl-and-ubuntu)
-    - [Git](#git)
-    - [Google Chrome](#google-chrome)
-    - [Node.js](#nodejs)
-    - [Unzip](#unzip)
-    - [Python 3](#python-3)
-    - [Note about WSL](#note-about-wsl)
-    - [Some other common instillations](#some-other-common-instillations)
-  - [Blog Content](#blog-content)
-  - [Bash Cheat Sheet (MY COMMANDS)](#bash-cheat-sheet-my-commands)
-  - [1. Remove spaces from file and folder names and then remove numbers from files and folder names](#1-remove-spaces-from-file-and-folder-names-and-then-remove-numbers-from-files-and-folder-names)
-    - [Description: need to : `sudo apt install rename`](#description-need-to--sudo-apt-install-rename)
-          - [code](#code)
-  - [2. Download Website Using Wget](#2-download-website-using-wget)
-    - [Description](#description)
-          - [code](#code-1)
-  - [3. Clean Out Messy Git Repo](#3-clean-out-messy-git-repo)
-    - [Description: recursively removes git related folders as well as internal use files / attributions in addition to empty folders](#description-recursively-removes-git-related-folders-as-well-as-internal-use-files--attributions-in-addition-to-empty-folders)
-          - [code](#code-2)
-  - [4. clone all of a user's git repositories](#4-clone-all-of-a-users-git-repositories)
-    - [Description: clone all of a user or organization's git repositories](#description-clone-all-of-a-user-or-organizations-git-repositories)
-          - [code](#code-3)
-  - [Generalized](#generalized)
-  - [Clone all Git User](#clone-all-git-user)
-  - [Clone all Git Organization](#clone-all-git-organization)
-  - [5. Git Workflow](#5-git-workflow)
-    - [Description](#description-1)
-          - [code](#code-4)
-  - [6. Recursive Unzip In Place](#6-recursive-unzip-in-place)
-    - [Description: recursively unzips folders and then deletes the zip file by the same name](#description-recursively-unzips-folders-and-then-deletes-the-zip-file-by-the-same-name)
-          - [code](#code-5)
-  - [7. git pull keeping local changes](#7-git-pull-keeping-local-changes)
-    - [Description](#description-2)
-          - [code](#code-6)
-  - [8. Prettier Code Formatter](#8-prettier-code-formatter)
-    - [Description](#description-3)
-          - [code](#code-7)
-  - [9. Pandoc](#9-pandoc)
-    - [Description](#description-4)
-          - [code](#code-8)
-  - [10. Gitpod Installs](#10-gitpod-installs)
-    - [Description](#description-5)
-          - [code](#code-9)
-  - [11. Repo Utils Package](#11-repo-utils-package)
-    - [Description: my standard repo utis package](#description-my-standard-repo-utis-package)
-          - [code](#code-10)
-  - [12. Unix Tree Package Usage](#12-unix-tree-package-usage)
-    - [Description](#description-6)
-          - [code](#code-11)
-  - [13. Find \& Replace string in file \& folder names recursively](#13-find--replace-string-in-file--folder-names-recursively)
-    - [Description](#description-7)
-          - [code](#code-12)
-  - [14. Remove double extensions](#14-remove-double-extensions)
-    - [Description](#description-8)
-          - [code](#code-13)
-  - [15. Truncate folder names down to 12 characters](#15-truncate-folder-names-down-to-12-characters)
-    - [Description: Truncate folder names down to 12 characters](#description-truncate-folder-names-down-to-12-characters)
-          - [code](#code-14)
-  - [16.Appendir.js](#16appendirjs)
-    - [Description: combine the contents of every file in the contaning directory](#description-combine-the-contents-of-every-file-in-the-contaning-directory)
-          - [code](#code-15)
-  - [17. Replace space in filename with underscore](#17-replace-space-in-filename-with-underscore)
-    - [Description: followed by replace `'#' with '_'` in directory name](#description-followed-by-replace--with-_-in-directory-name)
-          - [code](#code-16)
-  - [18. Filter \& delete files by name and extension](#18-filter--delete-files-by-name-and-extension)
-    - [Description](#description-9)
-          - [code](#code-17)
-  - [19. Remove lines containing string](#19-remove-lines-containing-string)
-    - [Description](#description-10)
-          - [code](#code-18)
-  - [20. Remove duplicate lines from a text file](#20-remove-duplicate-lines-from-a-text-file)
-    - [Description](#description-11)
-          - [code](#code-19)
-  - [21. Remove lines containing string](#21-remove-lines-containing-string)
-    - [Description](#description-12)
-          - [code](#code-20)
-  - [22. Zip directory excluding .git and node\_modules all the way down (Linux)](#22-zip-directory-excluding-git-and-node_modules-all-the-way-down-linux)
-    - [Descriptio: zip up an entire git directory](#descriptio-zip-up-an-entire-git-directory)
-          - [code](#code-21)
-  - [23. Delete files containing a certain string](#23-delete-files-containing-a-certain-string)
-    - [Description](#description-13)
-          - [code](#code-22)
-  - [24 Generate sitemap](#24-generate-sitemap)
-    - [Description](#description-14)
-          - [code](#code-23)
-  - [25. Index of Iframes](#25-index-of-iframes)
-    - [Description: Creates an index.html file that contains all the files in the working directory or any of it's sub folders as iframes instead of anchor tags](#description-creates-an-indexhtml-file-that-contains-all-the-files-in-the-working-directory-or-any-of-its-sub-folders-as-iframes-instead-of-anchor-tags)
-          - [code](#code-24)
-  - [26. Filter Corrupted Git Repo For Troublesome File](#26-filter-corrupted-git-repo-for-troublesome-file)
-    - [Description](#description-15)
-          - [code](#code-25)
-  - [27. OVERWRITE LOCAL CHANGES](#27-overwrite-local-changes)
-    - [Description](#description-16)
-          - [code](#code-26)
-  - [28. Remove Submodules](#28-remove-submodules)
-    - [Description: To remove a submodule you need to](#description-to-remove-a-submodule-you-need-to)
-          - [code](#code-27)
-  - [29. GET GISTS](#29-get-gists)
-    - [Description](#description-17)
-          - [code](#code-28)
-  - [30. Remove Remote OriginL](#30-remove-remote-originl)
-    - [Description](#description-18)
-          - [code](#code-29)
-  - [31. just clone .git folder](#31-just-clone-git-folder)
-    - [Description](#description-19)
-          - [code](#code-30)
-  - [32. Undo recent pull request](#32-undo-recent-pull-request)
-    - [Description](#description-20)
-          - [code](#code-31)
-  - [33. Lebab](#33-lebab)
-    - [Description: ES5 --\> ES6](#description-es5----es6)
-          - [code](#code-32)
-  - [34. Troubleshoot Ubuntu Input/Output Error](#34-troubleshoot-ubuntu-inputoutput-error)
-    - [Description: Open Powershell as Administrator](#description-open-powershell-as-administrator)
-          - [code](#code-33)
-  - [35. Export Medium as Markdown](#35-export-medium-as-markdown)
-    - [Description](#description-21)
-          - [code](#code-34)
-  - [36. Delete files in violation of a given size range (100MB for git)](#36-delete-files-in-violation-of-a-given-size-range-100mb-for-git)
-    - [Description](#description-22)
-          - [code](#code-35)
-  - [37. download all links of given file type](#37-download-all-links-of-given-file-type)
-    - [Description](#description-23)
-          - [code](#code-36)
-  - [38. Kill all node processes](#38-kill-all-node-processes)
-    - [Description](#description-24)
-          - [code](#code-37)
-  - [39. Remove string from file names recursively](#39-remove-string-from-file-names-recursively)
-    - [Description: In the example below I am using this command to remove the string "-master" from all file names in the working directory and all of it's sub directories](#description-in-the-example-below-i-am-using-this-command-to-remove-the-string--master-from-all-file-names-in-the-working-directory-and-all-of-its-sub-directories)
-          - [code](#code-38)
-  - [40. Remove spaces from file and folder names recursively](#40-remove-spaces-from-file-and-folder-names-recursively)
-    - [Description: replaces spaces in file and folder names with an `_` underscore](#description-replaces-spaces-in-file-and-folder-names-with-an-_-underscore)
-          - [code](#code-39)
-  - [41. Zip Each subdirectories in a given directory into their own zip file](#41-zip-each-subdirectories-in-a-given-directory-into-their-own-zip-file)
-    - [Description](#description-25)
-          - [code](#code-40)
-  - [91. Unzip PowerShell](#91-unzip-powershell)
-    - [Description](#description-26)
-          - [code](#code-41)
-  - [92. return to bash from zsh](#92-return-to-bash-from-zsh)
-    - [Description](#description-27)
-          - [code](#code-42)
-  - [93. Symbolic Link](#93-symbolic-link)
-    - [Description: to working directory](#description-to-working-directory)
-          - [code](#code-43)
-  - [94. auto generate readme](#94-auto-generate-readme)
-    - [Description: rename existing readme to blueprint.md](#description-rename-existing-readme-to-blueprintmd)
-          - [code](#code-44)
-  - [95. Log into postgres](#95-log-into-postgres)
-    - [Description](#description-28)
-          - [code](#code-45)
-  - [96. URL To Subscribe To YouTube Channel](#96-url-to-subscribe-to-youtube-channel)
-  - [96. URL To Subscribe To YouTube Channel](#96-url-to-subscribe-to-youtube-channel-1)
-  - [Description](#description-29)
-          - [code](#code-46)
-  - [97. Embed Repl.it In Medium Post](#97-embed-replit-in-medium-post)
-          - [code](#code-47)
-  - [98 rRmove text target="parent" from files called right.html](#98-rrmove-text-targetparent-from-files-called-righthtml)
-    - [Description](#description-30)
-          - [code](#code-48)
-  - [99. Cheat Sheet](#99-cheat-sheet)
-    - [Description](#description-31)
-          - [code](#code-49)
-      - [Find](#find)
-  - [To find files by case-insensitive extension (ex: .jpg, .JPG, .jpG)](#to-find-files-by-case-insensitive-extension-ex-jpg-jpg-jpg)
-  - [To find directories](#to-find-directories)
-  - [To find files](#to-find-files)
-  - [To find files by octal permission](#to-find-files-by-octal-permission)
-  - [To find files with setuid bit set](#to-find-files-with-setuid-bit-set)
-  - [To find files with extension '.txt' and remove them](#to-find-files-with-extension-txt-and-remove-them)
-  - [To find files with extension '.txt' and look for a string into them](#to-find-files-with-extension-txt-and-look-for-a-string-into-them)
-  - [To find files with size bigger than 5 Mebibyte and sort them by size](#to-find-files-with-size-bigger-than-5-mebibyte-and-sort-them-by-size)
-  - [To find files bigger than 2 Megabyte and list them](#to-find-files-bigger-than-2-megabyte-and-list-them)
-  - [To find files modified more than 7 days ago and list file information](#to-find-files-modified-more-than-7-days-ago-and-list-file-information)
-  - [To find symlinks owned by a user and list file information](#to-find-symlinks-owned-by-a-user-and-list-file-information)
-  - [To search for and delete empty directories](#to-search-for-and-delete-empty-directories)
-  - [To search for directories named build at a max depth of 2 directories](#to-search-for-directories-named-build-at-a-max-depth-of-2-directories)
-  - [To search all files who are not in .git directory](#to-search-all-files-who-are-not-in-git-directory)
-  - [To find all files that have the same node (hard link) as MY\_FILE\_HERE](#to-find-all-files-that-have-the-same-node-hard-link-as-my_file_here)
-  - [To find all files in the current directory and modify their permissions](#to-find-all-files-in-the-current-directory-and-modify-their-permissions)
-  - [Wiki Nav](#wiki-nav)
-  - [Dependencies](#dependencies)
-  - [Docs Structure](#docs-structure)
-  - [SITEMAP](#sitemap)
-- [](#)
-  - [🚀 Quick start](#-quick-start)
-  - [🧐 What's inside?](#-whats-inside)
-  - [🎓 Learning Gatsby](#-learning-gatsby)
-  - [💫 Deploy](#-deploy)
-    - [Gatsby With Netlify CMS](#gatsby-with-netlify-cms)
-  - [Prerequisites](#prerequisites)
-  - [Set up a Netlify CMS-managed Gatsby site in 5 steps](#set-up-a-netlify-cms-managed-gatsby-site-in-5-steps)
-    - [Step 1](#step-1)
-    - [Step 2](#step-2)
-    - [Step 3](#step-3)
-      - [Customizing your site](#customizing-your-site)
-    - [Step 4](#step-4)
-    - [Step 5](#step-5)
-      - [Benefits of Netlify CMS, GitHub, and Netlify Workflow](#benefits-of-netlify-cms-github-and-netlify-workflow)
-  - [You can learn more about Netlify CMS and how to configure it further in the Netlify CMS documentation](#you-can-learn-more-about-netlify-cms-and-how-to-configure-it-further-in-the-netlify-cms-documentation)
-  - [Gatsby Project Structure | Gatsby](#gatsby-project-structure--gatsby)
-      - [Layout Components | Gatsby](#layout-components--gatsby)
-  - [Excerpt](#excerpt)
-  - [Adding Markdown Pages | Gatsby](#adding-markdown-pages--gatsby)
-    - [Overview](#overview)
-    - [Syntax](#syntax)
-    - [Parameters](#parameters)
-    - [Return value](#return-value)
-    - [Example](#example)
-    - [Explanation](#explanation)
-    - [Output](#output)
-  - [Technoloy](#technoloy)
-  - [SOURCECODE](#sourcecode)
-    - [Overview](#overview-1)
-    - [Syntax](#syntax-1)
-    - [Parameters](#parameters-1)
-    - [Return value](#return-value-1)
-    - [Example](#example-1)
-    - [Explanation](#explanation-1)
-    - [Output](#output-1)
-  - [Source Code](#source-code)
-  - [Component Structure](#component-structure)
-    - [Table of Contents](#table-of-contents-1)
-  - [getPage](#getpage)
-    - [Parameters](#parameters-2)
-  - [getPageByFilePath](#getpagebyfilepath)
-    - [Parameters](#parameters-3)
-  - [getPages](#getpages)
-    - [Parameters](#parameters-4)
-    - [Examples](#examples)
+-   [Bgoonz Blog Readme](#bgoonz-blog-readme)
+    -   [⇨WEBSITE🗺️⇦](#website️)
+    -   [CHANGELOG](#changelog)
+        -   [⇨WEBSITE🗺️⇦ ⇨**Cloudfare-Backup**⇦ ⇨**search**⇦ ⇨**Backup Repo Deploy**⇦ ⇨**Github pages**⇦ ⇨**Go To Site Wiki**⇦ ⇨**Gatsby Cloud Version**⇦ ⇨**Vercel Version**⇦ ⇨**Cloudfare-Domain**⇦ ⇨**gh-pages**⇦ ⇨**backup netlify deploy**⇦](#website️-cloudfare-backup-search-backup-repo-deploy-github-pages-go-to-site-wiki-gatsby-cloud-version-vercel-version-cloudfare-domain-gh-pages-backup-netlify-deploy)
+    -   [Repos](#repos)
+        -   [⇨Privacy policy⇦](#privacy-policy)
+    -   [Table Of Contents](#table-of-contents)
+    -   [Useful Commands (internal use)](#useful-commands-internal-use)
+    -   [Web Dev Setup](#web-dev-setup)
+    -   [Basic Web Development Environment Setup](#basic-web-development-environment-setup)
+        -   [Basic Web Development Environment Setup](#basic-web-development-environment-setup-1)
+            -   [Windows Subsystem for Linux (WSL) and Ubuntu](#windows-subsystem-for-linux-wsl-and-ubuntu)
+        -   [Git](#git)
+        -   [Google Chrome](#google-chrome)
+        -   [Node.js](#nodejs)
+        -   [Unzip](#unzip)
+        -   [Python 3](#python-3)
+        -   [Note about WSL](#note-about-wsl)
+        -   [Some other common instillations](#some-other-common-instillations)
+    -   [Blog Content](#blog-content)
+    -   [Bash Cheat Sheet (MY COMMANDS)](#bash-cheat-sheet-my-commands)
+    -   [1. Remove spaces from file and folder names and then remove numbers from files and folder names](#1-remove-spaces-from-file-and-folder-names-and-then-remove-numbers-from-files-and-folder-names)
+        -   [Description: need to : `sudo apt install rename`](#description-need-to--sudo-apt-install-rename) - [code](#code)
+    -   [2. Download Website Using Wget](#2-download-website-using-wget)
+        -   [Description](#description) - [code](#code-1)
+    -   [3. Clean Out Messy Git Repo](#3-clean-out-messy-git-repo)
+        -   [Description: recursively removes git related folders as well as internal use files / attributions in addition to empty folders](#description-recursively-removes-git-related-folders-as-well-as-internal-use-files--attributions-in-addition-to-empty-folders) - [code](#code-2)
+    -   [4. clone all of a user's git repositories](#4-clone-all-of-a-users-git-repositories)
+        -   [Description: clone all of a user or organization's git repositories](#description-clone-all-of-a-user-or-organizations-git-repositories) - [code](#code-3)
+    -   [Generalized](#generalized)
+    -   [Clone all Git User](#clone-all-git-user)
+    -   [Clone all Git Organization](#clone-all-git-organization)
+    -   [5. Git Workflow](#5-git-workflow)
+        -   [Description](#description-1) - [code](#code-4)
+    -   [6. Recursive Unzip In Place](#6-recursive-unzip-in-place)
+        -   [Description: recursively unzips folders and then deletes the zip file by the same name](#description-recursively-unzips-folders-and-then-deletes-the-zip-file-by-the-same-name) - [code](#code-5)
+    -   [7. git pull keeping local changes](#7-git-pull-keeping-local-changes)
+        -   [Description](#description-2) - [code](#code-6)
+    -   [8. Prettier Code Formatter](#8-prettier-code-formatter)
+        -   [Description](#description-3) - [code](#code-7)
+    -   [9. Pandoc](#9-pandoc)
+        -   [Description](#description-4) - [code](#code-8)
+    -   [10. Gitpod Installs](#10-gitpod-installs)
+        -   [Description](#description-5) - [code](#code-9)
+    -   [11. Repo Utils Package](#11-repo-utils-package)
+        -   [Description: my standard repo utis package](#description-my-standard-repo-utis-package) - [code](#code-10)
+    -   [12. Unix Tree Package Usage](#12-unix-tree-package-usage)
+        -   [Description](#description-6) - [code](#code-11)
+    -   [13. Find \& Replace string in file \& folder names recursively](#13-find--replace-string-in-file--folder-names-recursively)
+        -   [Description](#description-7) - [code](#code-12)
+    -   [14. Remove double extensions](#14-remove-double-extensions)
+        -   [Description](#description-8) - [code](#code-13)
+    -   [15. Truncate folder names down to 12 characters](#15-truncate-folder-names-down-to-12-characters)
+        -   [Description: Truncate folder names down to 12 characters](#description-truncate-folder-names-down-to-12-characters) - [code](#code-14)
+    -   [16.Appendir.js](#16appendirjs)
+        -   [Description: combine the contents of every file in the contaning directory](#description-combine-the-contents-of-every-file-in-the-contaning-directory) - [code](#code-15)
+    -   [17. Replace space in filename with underscore](#17-replace-space-in-filename-with-underscore)
+        -   [Description: followed by replace `'#' with '_'` in directory name](#description-followed-by-replace--with-_-in-directory-name) - [code](#code-16)
+    -   [18. Filter \& delete files by name and extension](#18-filter--delete-files-by-name-and-extension)
+        -   [Description](#description-9) - [code](#code-17)
+    -   [19. Remove lines containing string](#19-remove-lines-containing-string)
+        -   [Description](#description-10) - [code](#code-18)
+    -   [20. Remove duplicate lines from a text file](#20-remove-duplicate-lines-from-a-text-file)
+        -   [Description](#description-11) - [code](#code-19)
+    -   [21. Remove lines containing string](#21-remove-lines-containing-string)
+        -   [Description](#description-12) - [code](#code-20)
+    -   [22. Zip directory excluding .git and node_modules all the way down (Linux)](#22-zip-directory-excluding-git-and-node_modules-all-the-way-down-linux)
+        -   [Descriptio: zip up an entire git directory](#descriptio-zip-up-an-entire-git-directory) - [code](#code-21)
+    -   [23. Delete files containing a certain string](#23-delete-files-containing-a-certain-string)
+        -   [Description](#description-13) - [code](#code-22)
+    -   [24 Generate sitemap](#24-generate-sitemap)
+        -   [Description](#description-14) - [code](#code-23)
+    -   [25. Index of Iframes](#25-index-of-iframes)
+        -   [Description: Creates an index.html file that contains all the files in the working directory or any of it's sub folders as iframes instead of anchor tags](#description-creates-an-indexhtml-file-that-contains-all-the-files-in-the-working-directory-or-any-of-its-sub-folders-as-iframes-instead-of-anchor-tags) - [code](#code-24)
+    -   [26. Filter Corrupted Git Repo For Troublesome File](#26-filter-corrupted-git-repo-for-troublesome-file)
+        -   [Description](#description-15) - [code](#code-25)
+    -   [27. OVERWRITE LOCAL CHANGES](#27-overwrite-local-changes)
+        -   [Description](#description-16) - [code](#code-26)
+    -   [28. Remove Submodules](#28-remove-submodules)
+        -   [Description: To remove a submodule you need to](#description-to-remove-a-submodule-you-need-to) - [code](#code-27)
+    -   [29. GET GISTS](#29-get-gists)
+        -   [Description](#description-17) - [code](#code-28)
+    -   [30. Remove Remote OriginL](#30-remove-remote-originl)
+        -   [Description](#description-18) - [code](#code-29)
+    -   [31. just clone .git folder](#31-just-clone-git-folder)
+        -   [Description](#description-19) - [code](#code-30)
+    -   [32. Undo recent pull request](#32-undo-recent-pull-request)
+        -   [Description](#description-20) - [code](#code-31)
+    -   [33. Lebab](#33-lebab)
+        -   [Description: ES5 --\> ES6](#description-es5----es6) - [code](#code-32)
+    -   [34. Troubleshoot Ubuntu Input/Output Error](#34-troubleshoot-ubuntu-inputoutput-error)
+        -   [Description: Open Powershell as Administrator](#description-open-powershell-as-administrator) - [code](#code-33)
+    -   [35. Export Medium as Markdown](#35-export-medium-as-markdown)
+        -   [Description](#description-21) - [code](#code-34)
+    -   [36. Delete files in violation of a given size range (100MB for git)](#36-delete-files-in-violation-of-a-given-size-range-100mb-for-git)
+        -   [Description](#description-22) - [code](#code-35)
+    -   [37. download all links of given file type](#37-download-all-links-of-given-file-type)
+        -   [Description](#description-23) - [code](#code-36)
+    -   [38. Kill all node processes](#38-kill-all-node-processes)
+        -   [Description](#description-24) - [code](#code-37)
+    -   [39. Remove string from file names recursively](#39-remove-string-from-file-names-recursively)
+        -   [Description: In the example below I am using this command to remove the string "-master" from all file names in the working directory and all of it's sub directories](#description-in-the-example-below-i-am-using-this-command-to-remove-the-string--master-from-all-file-names-in-the-working-directory-and-all-of-its-sub-directories) - [code](#code-38)
+    -   [40. Remove spaces from file and folder names recursively](#40-remove-spaces-from-file-and-folder-names-recursively)
+        -   [Description: replaces spaces in file and folder names with an `_` underscore](#description-replaces-spaces-in-file-and-folder-names-with-an-_-underscore) - [code](#code-39)
+    -   [41. Zip Each subdirectories in a given directory into their own zip file](#41-zip-each-subdirectories-in-a-given-directory-into-their-own-zip-file)
+        -   [Description](#description-25) - [code](#code-40)
+    -   [91. Unzip PowerShell](#91-unzip-powershell)
+        -   [Description](#description-26) - [code](#code-41)
+    -   [92. return to bash from zsh](#92-return-to-bash-from-zsh)
+        -   [Description](#description-27) - [code](#code-42)
+    -   [93. Symbolic Link](#93-symbolic-link)
+        -   [Description: to working directory](#description-to-working-directory) - [code](#code-43)
+    -   [94. auto generate readme](#94-auto-generate-readme)
+        -   [Description: rename existing readme to blueprint.md](#description-rename-existing-readme-to-blueprintmd) - [code](#code-44)
+    -   [95. Log into postgres](#95-log-into-postgres)
+        -   [Description](#description-28) - [code](#code-45)
+    -   [96. URL To Subscribe To YouTube Channel](#96-url-to-subscribe-to-youtube-channel)
+    -   [96. URL To Subscribe To YouTube Channel](#96-url-to-subscribe-to-youtube-channel-1)
+    -   [Description](#description-29) - [code](#code-46)
+    -   [97. Embed Repl.it In Medium Post](#97-embed-replit-in-medium-post) - [code](#code-47)
+    -   [98 rRmove text target="parent" from files called right.html](#98-rrmove-text-targetparent-from-files-called-righthtml)
+        -   [Description](#description-30) - [code](#code-48)
+    -   [99. Cheat Sheet](#99-cheat-sheet)
+        -   [Description](#description-31) - [code](#code-49)
+            -   [Find](#find)
+    -   [To find files by case-insensitive extension (ex: .jpg, .JPG, .jpG)](#to-find-files-by-case-insensitive-extension-ex-jpg-jpg-jpg)
+    -   [To find directories](#to-find-directories)
+    -   [To find files](#to-find-files)
+    -   [To find files by octal permission](#to-find-files-by-octal-permission)
+    -   [To find files with setuid bit set](#to-find-files-with-setuid-bit-set)
+    -   [To find files with extension '.txt' and remove them](#to-find-files-with-extension-txt-and-remove-them)
+    -   [To find files with extension '.txt' and look for a string into them](#to-find-files-with-extension-txt-and-look-for-a-string-into-them)
+    -   [To find files with size bigger than 5 Mebibyte and sort them by size](#to-find-files-with-size-bigger-than-5-mebibyte-and-sort-them-by-size)
+    -   [To find files bigger than 2 Megabyte and list them](#to-find-files-bigger-than-2-megabyte-and-list-them)
+    -   [To find files modified more than 7 days ago and list file information](#to-find-files-modified-more-than-7-days-ago-and-list-file-information)
+    -   [To find symlinks owned by a user and list file information](#to-find-symlinks-owned-by-a-user-and-list-file-information)
+    -   [To search for and delete empty directories](#to-search-for-and-delete-empty-directories)
+    -   [To search for directories named build at a max depth of 2 directories](#to-search-for-directories-named-build-at-a-max-depth-of-2-directories)
+    -   [To search all files who are not in .git directory](#to-search-all-files-who-are-not-in-git-directory)
+    -   [To find all files that have the same node (hard link) as MY_FILE_HERE](#to-find-all-files-that-have-the-same-node-hard-link-as-my_file_here)
+    -   [To find all files in the current directory and modify their permissions](#to-find-all-files-in-the-current-directory-and-modify-their-permissions)
+    -   [Wiki Nav](#wiki-nav)
+    -   [Dependencies](#dependencies)
+    -   [Docs Structure](#docs-structure)
+    -   [SITEMAP](#sitemap)
+-   [](#)
+    -   [🚀 Quick start](#-quick-start)
+    -   [🧐 What's inside?](#-whats-inside)
+    -   [🎓 Learning Gatsby](#-learning-gatsby)
+    -   [💫 Deploy](#-deploy)
+        -   [Gatsby With Netlify CMS](#gatsby-with-netlify-cms)
+    -   [Prerequisites](#prerequisites)
+    -   [Set up a Netlify CMS-managed Gatsby site in 5 steps](#set-up-a-netlify-cms-managed-gatsby-site-in-5-steps)
+        -   [Step 1](#step-1)
+        -   [Step 2](#step-2)
+        -   [Step 3](#step-3)
+            -   [Customizing your site](#customizing-your-site)
+        -   [Step 4](#step-4)
+        -   [Step 5](#step-5)
+            -   [Benefits of Netlify CMS, GitHub, and Netlify Workflow](#benefits-of-netlify-cms-github-and-netlify-workflow)
+    -   [You can learn more about Netlify CMS and how to configure it further in the Netlify CMS documentation](#you-can-learn-more-about-netlify-cms-and-how-to-configure-it-further-in-the-netlify-cms-documentation)
+    -   [Gatsby Project Structure | Gatsby](#gatsby-project-structure--gatsby)
+        -   [Layout Components | Gatsby](#layout-components--gatsby)
+    -   [Excerpt](#excerpt)
+    -   [Adding Markdown Pages | Gatsby](#adding-markdown-pages--gatsby)
+        -   [Overview](#overview)
+        -   [Syntax](#syntax)
+        -   [Parameters](#parameters)
+        -   [Return value](#return-value)
+        -   [Example](#example)
+        -   [Explanation](#explanation)
+        -   [Output](#output)
+    -   [Technoloy](#technoloy)
+    -   [SOURCECODE](#sourcecode)
+        -   [Overview](#overview-1)
+        -   [Syntax](#syntax-1)
+        -   [Parameters](#parameters-1)
+        -   [Return value](#return-value-1)
+        -   [Example](#example-1)
+        -   [Explanation](#explanation-1)
+        -   [Output](#output-1)
+    -   [Source Code](#source-code)
+    -   [Component Structure](#component-structure)
+        -   [Table of Contents](#table-of-contents-1)
+    -   [getPage](#getpage)
+        -   [Parameters](#parameters-2)
+    -   [getPageByFilePath](#getpagebyfilepath)
+        -   [Parameters](#parameters-3)
+    -   [getPages](#getpages)
+        -   [Parameters](#parameters-4)
+        -   [Examples](#examples)
 
 ---
 
@@ -301,53 +251,53 @@ docky src/components/**/*.js   --watch "src/components/**/*.js","./README.md"  -
 
 <!-- code_chunk_output -->
 
-- [Bgoonz Blog Readme](#bgoonz-blog-readme)
-    - [⇨WEBSITE🗺️⇦](#website️httpsbgoonz-blognetlifyapp)
-    - [CHANGELOG](#changelogchangelogmd)
-        - [⇨WEBSITE🗺️⇦ ⇨**Cloudfare-Backup**⇦ ⇨**search**⇦ ⇨**Backup Repo Deploy**⇦ ⇨**Github pages**⇦ ⇨**Go To Site Wiki**⇦ ⇨**Gatsby Cloud Version**⇦ ⇨**Vercel Version**⇦ ⇨**Cloudfare-Domain**⇦ ⇨**gh-pages**⇦ ⇨**backup netlify deploy**⇦](#website️httpsbgoonz-blognetlifyapp-cloudfare-backuphttpsbgoonz-blog-2-0pagesdev-searchhttpswwwalgoliacomrealtime-search-demoweb-dev-resource-hub-9e6b8aa8-6106-44c5-9f59-ff3f9531abd4-backup-repo-deployhttpsbgoonzblog20-backupnetlifyappgsctab0-github-pageshttpsbgoonzgithubiobgoonz_blog_20-go-to-site-wikihttpsgithubcombgoonzbgoonz_blog_20wiki-gatsby-cloud-versionhttpsbgoonzblog20mastergatsbyjsio-vercel-versionhttpsbgoonz-blog-2-0vercelapp-cloudfare-domainwwwwebdevhubus-gh-pageshttpsbgoonzgithubiobgoonz_blog_20-backup-netlify-deployhttpsbgoonz-blog20-backupnetlifyapp)
-    - [Repos](#repos)
-      - [⇨Privacy policy⇦](#privacy-policyhttpscodepeniobgoonzpenlyljzrw)
-  - [Useful Commands (internal use)](#useful-commands-internal-use)
-  - [Web Dev Setup](#web-dev-setup)
-  - [Bash Cheat Sheet (MY COMMANDS)](#bash-cheat-sheet-my-commands)
-      - [Find](#find)
-  - [To find files by case-insensitive extension (ex: .jpg, .JPG, .jpG)](#to-find-files-by-case-insensitive-extension-ex-jpg-jpg-jpg)
-  - [To find directories](#to-find-directories)
-  - [To find files](#to-find-files)
-  - [To find files by octal permission](#to-find-files-by-octal-permission)
-  - [To find files with setuid bit set](#to-find-files-with-setuid-bit-set)
-  - [To find files with extension '.txt' and remove them](#to-find-files-with-extension-txt-and-remove-them)
-  - [To find files with extension '.txt' and look for a string into them](#to-find-files-with-extension-txt-and-look-for-a-string-into-them)
-  - [To find files with size bigger than 5 Mebibyte and sort them by size](#to-find-files-with-size-bigger-than-5-mebibyte-and-sort-them-by-size)
-  - [To find files bigger than 2 Megabyte and list them](#to-find-files-bigger-than-2-megabyte-and-list-them)
-  - [To find files modified more than 7 days ago and list file information](#to-find-files-modified-more-than-7-days-ago-and-list-file-information)
-  - [To find symlinks owned by a user and list file information](#to-find-symlinks-owned-by-a-user-and-list-file-information)
-  - [To search for and delete empty directories](#to-search-for-and-delete-empty-directories)
-  - [To search for directories named build at a max depth of 2 directories](#to-search-for-directories-named-build-at-a-max-depth-of-2-directories)
-  - [To search all files who are not in .git directory](#to-search-all-files-who-are-not-in-git-directory)
-  - [To find all files that have the same node (hard link) as MY_FILE_HERE](#to-find-all-files-that-have-the-same-node-hard-link-as-my_file_here)
-  - [To find all files in the current directory and modify their permissions](#to-find-all-files-in-the-current-directory-and-modify-their-permissions)
-  - [Wiki Nav](#wiki-nav)
-  - [Dependencies](#dependencies)
-  - [Docs Structure](#docs-structure)
-    - [Overview](#overview)
-    - [Syntax](#syntax)
-    - [Parameters](#parameters)
-    - [Return value](#return-value)
-    - [Example](#example)
-    - [Explanation](#explanation)
-    - [Output](#output)
-  - [Technoloy](#technoloy)
-  - [SOURCECODE](#sourcecode)
-    - [Overview](#overview-1)
-    - [Syntax](#syntax-1)
-    - [Parameters](#parameters-1)
-    - [Return value](#return-value-1)
-    - [Example](#example-1)
-    - [Explanation](#explanation-1)
-    - [Output](#output-1)
-  - [Source Code](#source-code)
-  - [Component Structure](#component-structure)
+-   [Bgoonz Blog Readme](#bgoonz-blog-readme)
+    -   [⇨WEBSITE🗺️⇦](#website️httpsbgoonz-blognetlifyapp)
+    -   [CHANGELOG](#changelogchangelogmd)
+        -   [⇨WEBSITE🗺️⇦ ⇨**Cloudfare-Backup**⇦ ⇨**search**⇦ ⇨**Backup Repo Deploy**⇦ ⇨**Github pages**⇦ ⇨**Go To Site Wiki**⇦ ⇨**Gatsby Cloud Version**⇦ ⇨**Vercel Version**⇦ ⇨**Cloudfare-Domain**⇦ ⇨**gh-pages**⇦ ⇨**backup netlify deploy**⇦](#website️httpsbgoonz-blognetlifyapp-cloudfare-backuphttpsbgoonz-blog-2-0pagesdev-searchhttpswwwalgoliacomrealtime-search-demoweb-dev-resource-hub-9e6b8aa8-6106-44c5-9f59-ff3f9531abd4-backup-repo-deployhttpsbgoonzblog20-backupnetlifyappgsctab0-github-pageshttpsbgoonzgithubiobgoonz_blog_20-go-to-site-wikihttpsgithubcombgoonzbgoonz_blog_20wiki-gatsby-cloud-versionhttpsbgoonzblog20mastergatsbyjsio-vercel-versionhttpsbgoonz-blog-2-0vercelapp-cloudfare-domainwwwwebdevhubus-gh-pageshttpsbgoonzgithubiobgoonz_blog_20-backup-netlify-deployhttpsbgoonz-blog20-backupnetlifyapp)
+    -   [Repos](#repos)
+        -   [⇨Privacy policy⇦](#privacy-policyhttpscodepeniobgoonzpenlyljzrw)
+    -   [Useful Commands (internal use)](#useful-commands-internal-use)
+    -   [Web Dev Setup](#web-dev-setup)
+    -   [Bash Cheat Sheet (MY COMMANDS)](#bash-cheat-sheet-my-commands)
+        -   [Find](#find)
+    -   [To find files by case-insensitive extension (ex: .jpg, .JPG, .jpG)](#to-find-files-by-case-insensitive-extension-ex-jpg-jpg-jpg)
+    -   [To find directories](#to-find-directories)
+    -   [To find files](#to-find-files)
+    -   [To find files by octal permission](#to-find-files-by-octal-permission)
+    -   [To find files with setuid bit set](#to-find-files-with-setuid-bit-set)
+    -   [To find files with extension '.txt' and remove them](#to-find-files-with-extension-txt-and-remove-them)
+    -   [To find files with extension '.txt' and look for a string into them](#to-find-files-with-extension-txt-and-look-for-a-string-into-them)
+    -   [To find files with size bigger than 5 Mebibyte and sort them by size](#to-find-files-with-size-bigger-than-5-mebibyte-and-sort-them-by-size)
+    -   [To find files bigger than 2 Megabyte and list them](#to-find-files-bigger-than-2-megabyte-and-list-them)
+    -   [To find files modified more than 7 days ago and list file information](#to-find-files-modified-more-than-7-days-ago-and-list-file-information)
+    -   [To find symlinks owned by a user and list file information](#to-find-symlinks-owned-by-a-user-and-list-file-information)
+    -   [To search for and delete empty directories](#to-search-for-and-delete-empty-directories)
+    -   [To search for directories named build at a max depth of 2 directories](#to-search-for-directories-named-build-at-a-max-depth-of-2-directories)
+    -   [To search all files who are not in .git directory](#to-search-all-files-who-are-not-in-git-directory)
+    -   [To find all files that have the same node (hard link) as MY_FILE_HERE](#to-find-all-files-that-have-the-same-node-hard-link-as-my_file_here)
+    -   [To find all files in the current directory and modify their permissions](#to-find-all-files-in-the-current-directory-and-modify-their-permissions)
+    -   [Wiki Nav](#wiki-nav)
+    -   [Dependencies](#dependencies)
+    -   [Docs Structure](#docs-structure)
+        -   [Overview](#overview)
+        -   [Syntax](#syntax)
+        -   [Parameters](#parameters)
+        -   [Return value](#return-value)
+        -   [Example](#example)
+        -   [Explanation](#explanation)
+        -   [Output](#output)
+    -   [Technoloy](#technoloy)
+    -   [SOURCECODE](#sourcecode)
+        -   [Overview](#overview-1)
+        -   [Syntax](#syntax-1)
+        -   [Parameters](#parameters-1)
+        -   [Return value](#return-value-1)
+        -   [Example](#example-1)
+        -   [Explanation](#explanation-1)
+        -   [Output](#output-1)
+    -   [Source Code](#source-code)
+    -   [Component Structure](#component-structure)
 
 <!-- /code_chunk_output -->
 
@@ -530,51 +480,38 @@ As of the time of writing of this document, WSL has an issue renaming or deletin
 
 </details>
 
-
-
 ---
+
 ### Documentation Commands:
 
-documentation build src/components/DocsMenu.js  -f md> ./notes/DocsMenu.md
-documentation build src/components/Footer.js  -f md> ./notes/Footer.md
-documentation build src/components/Header.js  -f md> ./notes/Header.md
-documentation build src/components/index.js  -f md> ./notes/index.md
-documentation build src/components/SectionContent.js  -f md> ./notes/SectionContent.md
-documentation build src/components/SectionDocs.js  -f md> ./notes/SectionDocs.md
-documentation build src/components/SectionHero.js  -f md> ./notes/SectionHero.md
-documentation build src/components/CtaButtons.js  -f md> ./notes/CtaButtons.md
-documentation build src/components/DocsSubmenu.js  -f md> ./notes/DocsSubmenu.md
-documentation build src/components/FormField.js  -f md> ./notes/FormField.md
-documentation build src/components/Icon.js  -f md> ./notes/Icon.md
-documentation build src/components/Layout.js  -f md> ./notes/Layout.md
-documentation build src/components/SectionCta.js  -f md> ./notes/SectionCta.md
-documentation build src/components/SectionGrid.js  -f md> ./notes/SectionGrid.md
-documentation build src/components/Submenu.js  -f md> ./notes/Submenu.md
-documentation build src/components/ActionLink.js  -f md> ./notes/ActionLink.md
-
-
-
+documentation build src/components/DocsMenu.js -f md> ./notes/DocsMenu.md
+documentation build src/components/Footer.js -f md> ./notes/Footer.md
+documentation build src/components/Header.js -f md> ./notes/Header.md
+documentation build src/components/index.js -f md> ./notes/index.md
+documentation build src/components/SectionContent.js -f md> ./notes/SectionContent.md
+documentation build src/components/SectionDocs.js -f md> ./notes/SectionDocs.md
+documentation build src/components/SectionHero.js -f md> ./notes/SectionHero.md
+documentation build src/components/CtaButtons.js -f md> ./notes/CtaButtons.md
+documentation build src/components/DocsSubmenu.js -f md> ./notes/DocsSubmenu.md
+documentation build src/components/FormField.js -f md> ./notes/FormField.md
+documentation build src/components/Icon.js -f md> ./notes/Icon.md
+documentation build src/components/Layout.js -f md> ./notes/Layout.md
+documentation build src/components/SectionCta.js -f md> ./notes/SectionCta.md
+documentation build src/components/SectionGrid.js -f md> ./notes/SectionGrid.md
+documentation build src/components/Submenu.js -f md> ./notes/Submenu.md
+documentation build src/components/ActionLink.js -f md> ./notes/ActionLink.md
 
 ---
 
 ## Blog Content:
 
-
-
-
+---
 
 ---
 
-
-
----
-
-##  Bash Cheat Sheet (MY COMMANDS)
-
-
+## Bash Cheat Sheet (MY COMMANDS)
 
 ## Web Dev Setup
-
 
 <details>
 
@@ -593,7 +530,7 @@ find . -name "* *" -type d | rename 's/ /_/g'
 find . -name "* *" -type f | rename 's/ /_/g'
 ```
 
-```bash
+````bash
 
 ```bash
 find $dir -type f | sed 's|\(.*/\)[^A-Z]*\([A-Z].*\)|mv \"&\" \"\1\2\"|' | sh
@@ -619,7 +556,7 @@ fs.writeFile('output.md', cat, err => {
   if (err) throw err;
 });
 
-```
+````
 
 ---
 
@@ -662,6 +599,7 @@ find . \( -name "*SECURITY.txt" -o -name "*RELEASE.txt" -o  -name "*CHANGELOG.tx
 ### Description: clone all of a user or organization's git repositories
 
 > Notes:
+
 ###### code
 
 ###### code
@@ -675,6 +613,7 @@ curl "https://api.github.com/$CNTX/$NAME/repos?page=$PAGE&per_page=100" |
   cut -d \" -f 4 |
   xargs -L1 git clone
 ```
+
 ## Clone all Git User
 
 ```bash
@@ -685,6 +624,7 @@ curl "https://api.github.com/$CNTX/$NAME/repos?page=$PAGE&per_page=200"?branch=m
   xargs -L1 git clone
 
 ```
+
 ## Clone all Git Organization
 
 ```bash
@@ -697,6 +637,7 @@ curl "https://api.github.com/$CNTX/$NAME/repos?page=$PAGE&per_page=200"?branch=m
 ```
 
 ---
+
 ## 5. Git Workflow
 
 ## 5. Git Workflow
@@ -712,24 +653,28 @@ git add .
 git commit -m"update"
 git push -u origin master
 ```
+
 ```bash
 git init
 git add .
 git commit -m"update"
 git push -u origin main
 ```
+
 ```bash
 git init
 git add .
 git commit -m"update"
 git push -u origin bryan-guner
 ```
+
 ```bash
 git init
 git add .
 git commit -m"update"
 git push -u origin gh-pages
 ```
+
 ```bash
 git init
 git add .
@@ -827,6 +772,7 @@ npm i lebab -g
 npm i prettier -g
 npm i npm-recursive-install -g
 ```
+
 ```bash
 black .
 
@@ -929,6 +875,7 @@ do
     mv "${file}" "${file%.html}"
 done
 ```
+
 ```bash
 # !/bin/bash
 for file in*.html.png
@@ -944,6 +891,7 @@ done
 ```
 
 ---
+
 ## 15. Truncate folder names down to 12 characters
 
 ## 15. Truncate folder names down to 12 characters
@@ -1029,9 +977,11 @@ find . -name 'left.html' -type f -prune -exec rm -rf '{}' +
 ### Description
 
 > Notes: Remove lines not containing `'.js'`
+
 ```bash
 sudo sed -i '/\.js/!d' ./*scrap2.md
 ```
+
 ###### code
 
 ```bash
@@ -1046,6 +996,7 @@ sudo sed -i '/author/d' ./*
 ```
 
 ---
+
 ## 20. Remove duplicate lines from a text file
 
 ## 20. Remove duplicate lines from a text file
@@ -1058,6 +1009,7 @@ sudo sed -i '/author/d' ./*
 > The syntax of this is quite easy to understand. Here, INPUT refers to the input file in which repeated lines need to be filtered out and if INPUT isn't specified then uniq reads from the standard input. OUTPUT refers to the output file in which you can store the filtered output generated by uniq command and as in case of INPUT if OUTPUT isn't specified then uniq writes to the standard output.
 
 Now, let's understand the use of this with the help of an example. Suppose you have a text file named kt.txt which contains repeated lines that needs to be omitted. This can simply be done with uniq.
+
 ###### code
 
 ```bash
@@ -1148,6 +1100,7 @@ find . | xargs grep -l www.redhat.com | awk '{print "rm "$1}' > doit.sh
 vi doit.sh // check for murphy and his law
 source doit.sh
 ```
+
 ---
 
 ## 24 Generate sitemap
@@ -1249,6 +1202,7 @@ echo '  </style>'
 cmd $listing --sort=extension >>$html
 
 ```
+
 ---
 
 ## 25. Index of Iframes
@@ -1256,7 +1210,9 @@ cmd $listing --sort=extension >>$html
 ### Description: Creates an index.html file that contains all the files in the working directory or any of it's sub folders as iframes instead of anchor tags
 
 > Notes: Useful Follow up Code:
+
 ```bash
+
 ```
 
 ###### code
@@ -1353,6 +1309,7 @@ echo '  </style>'
 cmd $listing --sort=extension >>$html
 
 ```
+
 ---
 
 ## 26. Filter Corrupted Git Repo For Troublesome File
@@ -1369,6 +1326,7 @@ git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch assets/_in
 ```
 
 ---
+
 ## 27. OVERWRITE LOCAL CHANGES
 
 ## 27. OVERWRITE LOCAL CHANGES
@@ -1380,6 +1338,7 @@ If you have any files that are not tracked by Git (e.g. uploaded user content), 
 
 > Notes:
 > First, run a fetch to update all origin/<branch> refs to latest:
+
 ###### code
 
 ```bash
@@ -1404,6 +1363,7 @@ git reset --hard origin/master
 ```
 
 ---
+
 ## 28. Remove Submodules
 
 ## 28. Remove Submodules
@@ -1419,6 +1379,7 @@ git reset --hard origin/master
 > Run rm -rf .git/modules/path_to_submodule (no trailing slash).
 > Commit git commit -m "Removed submodule "
 > Delete the now untracked submodule files rm -rf path_to_submodule
+
 ###### code
 
 ```bash
@@ -1632,6 +1593,7 @@ killall -s KILL node
 ```
 
 ---
+
 ## 39. Remove string from file names recursively
 
 ## 39. Remove string from file names recursively
@@ -1647,7 +1609,7 @@ find . -type f -exec rename 's/-master//g' {} +
 
 ```
 
-> Notes: The same could be done for folder names by changing the *-type f* flag (for file) to a *-type d* flag (for directory)
+> Notes: The same could be done for folder names by changing the _-type f_ flag (for file) to a _-type d_ flag (for directory)
 
 ```bash
 find <mydir> -type d -exec sed -i 's/<string1>/<string2>/g' {} +
@@ -1782,7 +1744,7 @@ sudo -u postgres psql
 
 ## 96. URL To Subscribe To YouTube Channel
 
-| URL                  | <https://overwritebgoonzblog.netlify.app>                        |
+| URL                  | <https://overwritebgoonzblog.netlify.app>                |
 | -------------------- | -------------------------------------------------------- |
 | Miscellaneous        | webpack ; Prism                                          |
 | Widgets              | Facebook ; AddThis                                       |
@@ -1814,6 +1776,7 @@ https://www.youtube.com/channel/UC1HDa0wWnIKUf-b4yY9JecQ?sub_confirmation=1
 ```
 
 ---
+
 ## 97. Embed Repl.it In Medium Post
 
 ## 97. Embed Repl.it In Medium Post
@@ -1846,6 +1809,7 @@ https://repl.it/@bgoonz/Database-Prac?lite=true&amp;referrer=https%3A%2F%2Fbryan
 find . -name *right.html  -type f -exec sed -i 's/target="_parent"//g' {} +
 
 ```
+
 ## 99. Cheat Sheet
 
 ## 99. Cheat Sheet
@@ -2445,7 +2409,7 @@ find . -maxdepth 2 -name build -type d
 
 ## To search all files who are not in .git directory
 
-find . ! -iwholename '*.git*' -type f
+find . ! -iwholename '_.git_' -type f
 
 ## To find all files that have the same node (hard link) as MY_FILE_HERE
 
@@ -2456,6 +2420,7 @@ find . -type f -samefile MY_FILE_HERE 2>/dev/null
 find . -type f -exec chmod 644 {} \;
 
 ---
+
 </details>
 
 ---
@@ -2463,6 +2428,7 @@ find . -type f -exec chmod 644 {} \;
 ![Preview](https://i.imgur.com/nieW1vp.png)
 
 ## Wiki Nav
+
 -   [Home](https://github.com/bgoonz/Overwritewiki)
 -   [add copy to code blocks.md](https://github.com/bgoonz/Overwritewiki/add-copy-to-code-blocks.md)
 -   [Add site search w algolia.md](https://github.com/bgoonz/Overwritewiki/Add-site-search-w-algolia.md)
@@ -2497,6 +2463,7 @@ find . -type f -exec chmod 644 {} \;
 -   [validation report.md](https://github.com/bgoonz/Overwritewiki/validation-report.md)
 -   [web archive.md](https://github.com/bgoonz/Overwritewiki/web-archive.md)
 -   [wordpress vs headless cms.md](https://github.com/bgoonz/Overwritewiki/wordpress-vs-headless-cms.md)
+
 ---
 
 ## Dependencies
@@ -2504,7 +2471,6 @@ find . -type f -exec chmod 644 {} \;
 <details>
   <summary>Click to expand!
 </summary>
-
 
 [![@algolia**](https://avatars.githubusercontent.com/u/2034458?s=40&v=4)](https://github.com/algolia)[algolia / algoliasearch-client-javascript](https://github.com/algolia/algoliasearch-client-javascript)@algolia/client-search
 `^ 4.10.3`
@@ -2609,7 +2575,6 @@ find . -type f -exec chmod 644 {} \;
 <details>
 <summary>  Docs Structure  
 </summary>
-
 
 ```
 ├── blog
@@ -3236,8 +3201,8 @@ find . -type f -exec chmod 644 {} \;
 
 </details>
 
-
 ---
+
 ### Overview
 
 The **`_.get()` method** in Lodash retrieves the object’s value at a specific path.
@@ -3270,7 +3235,7 @@ If the value is not present at the object’s specific path, it will be resolved
 
     Your site is now running at `http://localhost:8000`!
 
-    *Note: You'll also see a second link:*`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+    _Note: You'll also see a second link:_`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
     Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
@@ -3322,7 +3287,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 -   **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby**](https://www.gatsbyjs.com/tutorial/).\*\* It starts with zero assumptions about your level of ability and walks through every step of the process.
 -
--   **To dive straight into code samples, head [to our documentation**](https://www.gatsbyjs.com/docs/).\*\* In particular, check out the *Guides*, *API Reference*, and *Advanced Tutorials* sections in the sidebar.
+-   **To dive straight into code samples, head [to our documentation**](https://www.gatsbyjs.com/docs/).\*\* In particular, check out the *Guides*, *API Reference*, and *Advanced Tutorials\* sections in the sidebar.
 
 ## 💫 Deploy
 
@@ -3331,14 +3296,15 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with Vercel**](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/BGOONZ_BLOG_2.0.git)
 
 ---
+
 ### Gatsby With Netlify CMS
 
 This tutorial will use [gatsby-personal-starter-blog](https://github.com/thomaswang/gatsby-personal-starter-blog), a Gatsby starter based on the official [gatsby-starter-blog](/starters/gatsbyjs/gatsby-starter-blog/). The differences are that `gatsby-personal-starter-blog` is configured to run the blog on a subdirectory, `/blog`, and comes pre-installed with [Netlify CMS](https://www.netlifycms.org/) for content editing. It also adds VS Code highlighting for code blocks.
 
 ## Prerequisites
 
-- A GitHub account
-- The [Gatsby CLI](/docs/reference/gatsby-cli/) installed
+-   A GitHub account
+-   The [Gatsby CLI](/docs/reference/gatsby-cli/) installed
 
 ## Set up a Netlify CMS-managed Gatsby site in 5 steps
 
@@ -3395,7 +3361,7 @@ git push -u origin master
 
 Then, open [app.netlify.com](https://app.netlify.com) and add a "New site from Git". Choose your newly created repo and click on "Deploy site" with the default deployment settings.
 
-> *Note: if you don't see the correct repo listed, you may need to install or reconfigure the Netlify app on GitHub.*
+> _Note: if you don't see the correct repo listed, you may need to install or reconfigure the Netlify app on GitHub._
 
 ![Netlify Dashboard for Creating a new site](netlify-dashboard.png)
 
@@ -3417,8 +3383,7 @@ Copy the credentials of your new app listed on [GitHub OAuth Apps](https://githu
 
 Congrats! Now that Netlify CMS is successfully configured to your project, every time you add a new post, the content will be stored in your repository and versioned on GitHub because Netlify CMS is Git-based. Also, thanks to [Netlify's Continuous Deployment](https://www.netlify.com/docs/continuous-deployment/), a new version will be deployed every time you add or edit a post.
 
-You can learn more about Netlify CMS and how to configure it further in the [Netlify CMS documentation](https://www.netlifycms.org/docs/intro/)
----
+## You can learn more about Netlify CMS and how to configure it further in the [Netlify CMS documentation](https://www.netlifycms.org/docs/intro/)
 
 ---
 
@@ -3437,10 +3402,10 @@ Inside a Gatsby project, you may see some or all of the following folders and fi
 -- /.cache
 |-- /plugins
 |-- /public
-|-- /src    
-|-- /api    
-|-- /pages    
-|-- /templates    
+|-- /src
+|-- /api
+|-- /pages
+|-- /templates
 |-- html.js
 |-- /static
 |-- gatsby-config.js
@@ -3451,9 +3416,9 @@ Inside a Gatsby project, you may see some or all of the following folders and fi
 
 [Folders](https://www.gatsbyjs.com/docs/reference/gatsby-project-structure/#folders)
 
--   **`/.cache`** *Automatically generated.* This folder is an internal cache created automatically by Gatsby. The files inside this folder are not meant for modification. Should be added to the `.gitignore` file if not added already.
+-   **`/.cache`** _Automatically generated._ This folder is an internal cache created automatically by Gatsby. The files inside this folder are not meant for modification. Should be added to the `.gitignore` file if not added already.
 -   **`/plugins`** This folder hosts any project-specific ("local") plugins that aren't published as an `npm` package. Check out the [plugin docs](https://www.gatsbyjs.com/docs/plugins/) for more detail.
--   **`/public`** *Automatically generated.* The output of the build process will be exposed inside this folder. Should be added to the `.gitignore` file if not added already.
+-   **`/public`** _Automatically generated._ The output of the build process will be exposed inside this folder. Should be added to the `.gitignore` file if not added already.
 -   **`/src`** This directory will contain all of the code related to what you will see on the frontend of your site (what you see in the browser), like your site header, or a page template. "src" is a convention for "source code".
 
     -   **`/api`** JavaScript and TypeScript files under `src/api` become functions automatically with paths based on their file name. Check out the [functions guide](https://www.gatsbyjs.com/docs/reference/functions/) for more detail.
@@ -3477,23 +3442,19 @@ Inside a Gatsby project, you may see some or all of the following folders and fi
 
 In the HTML tab:
 
-
-
-
-
 #### Layout Components | Gatsby
 
 ## Excerpt
 
 > In this guide, you'll learn Gatsby's approach to layouts, how to create and use layout components, and how to prevent layout components from…
 
-- **Lines 2 to 15**: We create an object to perform a query.
+-   **Lines 2 to 15**: We create an object to perform a query.
 
-- **Line 18**: We define a variable `collegeYopPath` to get the value.
+-   **Line 18**: We define a variable `collegeYopPath` to get the value.
 
 [Gatsby's approach to layouts](https://www.gatsbyjs.com/docs/how-to/routing/layout-components/#gatsbys-approach-to-layouts)
 
-- **Line 22**: We define a variable `falsyPath` to get the value.
+-   **Line 22**: We define a variable `falsyPath` to get the value.
 
 [What are layout components?](https://www.gatsbyjs.com/docs/how-to/routing/layout-components/#what-are-layout-components)
 
@@ -3559,14 +3520,14 @@ Open `gatsby-config.js` to add the `gatsby-source-filesystem` plugin. The `path`
 
 ```
 module.exports = {  siteMetadata: {
-    title: "My Gatsby Site",  },  
-plugins: [    { 
-     resolve: `gatsby-source-filesystem`,      
+    title: "My Gatsby Site",  },
+plugins: [    {
+     resolve: `gatsby-source-filesystem`,
 options: {
-        name: `markdown-pages`,      
-  path: `${__dirname}/src/markdown-pages`,      
-},  
-  },  
+        name: `markdown-pages`,
+  path: `${__dirname}/src/markdown-pages`,
+},
+  },
 ],}
 ```
 
@@ -3586,14 +3547,14 @@ Add this to `gatsby-config.js` after the previously added `gatsby-source-filesys
 
 ```
 module.exports = {  siteMetadata: {
-    title: "My Gatsby Site",  },  
-plugins: [    { 
-     resolve: `gatsby-source-filesystem`,      
+    title: "My Gatsby Site",  },
+plugins: [    {
+     resolve: `gatsby-source-filesystem`,
 options: {
-        name: `markdown-pages`,      
-  path: `${__dirname}/src/markdown-pages`,      
-},  
-  },  
+        name: `markdown-pages`,
+  path: `${__dirname}/src/markdown-pages`,
+},
+  },
   `gatsby-transformer-remark`,  ],
 }
 ```
@@ -3655,7 +3616,7 @@ If the value is not present at the object’s specific path, it will be resolved
 ### Syntax
 
 ```js
-_.get(object, path, defaultValue)
+_.get(object, path, defaultValue);
 ```
 
 ### Parameters
@@ -3700,16 +3661,16 @@ In the JavaScript tab:
 ## Technoloy
 
 ## Technoloy
+
 ![tech-stack](https://github.com/bgoonz/Overwriteblob/master/static/images/madewith.png?raw=true)
 
 ---
+
 ## SOURCECODE
 
 ## SOURCECODE
 
 ---
-
-
 
 ### Overview
 
@@ -3720,7 +3681,7 @@ If the value is not present at the object’s specific path, it will be resolved
 ### Syntax
 
 ```js
-_.get(object, path, defaultValue)
+_.get(object, path, defaultValue);
 ```
 
 ### Parameters
@@ -3762,7 +3723,6 @@ In the JavaScript tab:
 -   The `_.get()` method at **line 19** contains a valid path, and therefore the expression is resolved, and `2021` is printed on the console.
 -   The `_.get()` method at **Line 23** contains an invalid path, and therefore the expression is resolved as `undefined`.
 
-
 ---
 
 ### Overview
@@ -3774,16 +3734,16 @@ If the value is not present at the object’s specific path, it will be resolved
 ### Syntax
 
 ```js
-_.get(object, path, defaultValue)
+_.get(object, path, defaultValue);
 ```
 
 ### Parameters
 
 This method accepts the following parameters:
 
-- **`object`**: The object in which the given path will be queried.
-- **`path`**: The path used to retrieve the value from the object.
-- **`defaultValue`**: The default value that will be returned for resolved values that are undefined.
+-   **`object`**: The object in which the given path will be queried.
+-   **`path`**: The path used to retrieve the value from the object.
+-   **`defaultValue`**: The default value that will be returned for resolved values that are undefined.
 
 ### Return value
 
@@ -3797,26 +3757,27 @@ Let’s look at an example of the `_.get()` method in the code snippet below:
 
 In the HTML tab:
 
-- **Line 5**: We import the `lodash` script.
+-   **Line 5**: We import the `lodash` script.
 
 In the JavaScript tab:
 
-- **Lines 2 to 15**: We create an object to perform a query.
+-   **Lines 2 to 15**: We create an object to perform a query.
 
-- **Line 18**: We define a variable `collegeYopPath` to get the value.
+-   **Line 18**: We define a variable `collegeYopPath` to get the value.
 
-- **Lines 19**: We use the `_.get()` method and pass the `object`, `collegeYopPath`, and a default value as parameters.
+-   **Lines 19**: We use the `_.get()` method and pass the `object`, `collegeYopPath`, and a default value as parameters.
 
-- **Line 22**: We define a variable `falsyPath` to get the value.
+-   **Line 22**: We define a variable `falsyPath` to get the value.
 
-- **Lines 23**: We use the `_.get()` method and pass the `object`, `falsyPath` and a `default value` as parameters.
+-   **Lines 23**: We use the `_.get()` method and pass the `object`, `falsyPath` and a `default value` as parameters.
 
 ### Output
 
-- The `_.get()` method at **line 19** contains a valid path, and therefore the expression is resolved, and `2021` is printed on the console.
-- The `_.get()` method at **Line 23** contains an invalid path, and therefore the expression is resolved as `undefined`.
+-   The `_.get()` method at **line 19** contains a valid path, and therefore the expression is resolved, and `2021` is printed on the console.
+-   The `_.get()` method at **Line 23** contains an invalid path, and therefore the expression is resolved as `undefined`.
 
 ---
+
 ```
 
 bryan@LAPTOP-9LGJ3JGS:/c/MY-WEB-DEV/BLOG____2.0/BLOG_2.0/src$ tree -f
@@ -3965,13 +3926,14 @@ bryan@LAPTOP-9LGJ3JGS:/c/MY-WEB-DEV/BLOG____2.0/BLOG_2.0/src$ tree -f
 21 directories, 119 files
 bryan@LAPTOP-9LGJ3JGS:/c/MY-WEB-DEV/BLOG____2.0/BLOG_2.0/src$
 ```
+
 ---
+
 ## Source Code
 
 <details>
 <summary>  Folder Structure (src)  
 </summary>
-
 
 ```
 .
@@ -4287,7 +4249,6 @@ bryan@LAPTOP-9LGJ3JGS:/c/MY-WEB-DEV/BLOG____2.0/BLOG_2.0/src$
 
 <details>
 
-
 <summary>  Click To See Component Sourcecode  </summary>
 
 ## Component Structure
@@ -4321,7 +4282,6 @@ bryan@LAPTOP-9LGJ3JGS:/c/MY-WEB-DEV/BLOG____2.0/BLOG_2.0/src$
 ```js
 import React from 'react';
 import _ from 'lodash';
-
 
 import { Link, withPrefix, classNames } from '../utils';
 import Icon from './Icon';
@@ -4359,7 +4319,9 @@ export default class ActionLink extends React.Component {
 ```
 
 ---
+
 ### Table of Contents
+
 -   [getPage][1]
     -   [Parameters][2]
 -   [getPageByFilePath][3]
@@ -4367,6 +4329,7 @@ export default class ActionLink extends React.Component {
 -   [getPages][5]
     -   [Parameters][6]
     -   [Examples][7]
+
 ## getPage
 
 Get the page at the provided `urlPath`.
@@ -4431,12 +4394,9 @@ Returns **[Array][8]**
 [9]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 [10]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
 
-
-
 ```js
 import React from 'react';
 import _ from 'lodash';
-
 
 import { Link, withPrefix, classNames } from '../utils';
 
@@ -4470,7 +4430,6 @@ export default class CtaButtons extends React.Component {
 ```js
 import React from 'react';
 import _ from 'lodash';
-
 
 import { getPage, classNames, Link, withPrefix, pathJoin, getPages } from '../utils';
 import DocsSubmenu from './DocsSubmenu';
@@ -4543,7 +4502,6 @@ export default class DocsMenu extends React.Component {
 ```js
 import React from 'react';
 import _ from 'lodash';
-
 
 import { classNames, Link, withPrefix } from '../utils';
 
@@ -4756,7 +4714,6 @@ export default class Footer extends React.Component {
 ```js
 import React from 'react';
 import _ from 'lodash';
-
 
 import { Link, withPrefix, classNames } from '../utils';
 import ActionLink from './ActionLink';

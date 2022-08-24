@@ -1,10 +1,8 @@
 let fs;
 fs = require('fs/promises');
-const {
-    spawn
-} = require('child_process');
+const { spawn } = require('child_process');
 const path = require('path');
-console.log(path)
+console.log(path);
 
 // eslint-disable-next-line func-style
 function npmInstall(cwd) {
@@ -20,9 +18,11 @@ function npmInstall(cwd) {
 async function install() {
     const base = path.resolve(process.cwd());
     const ignoreFolders = ['node_modules'];
-    const deps = (await fs.readdir(base, {
+    const deps = (
+        await fs.readdir(base, {
             withFileTypes: true
-        }))
+        })
+    )
         .filter((dep) => dep.isDirectory())
         .filter((dep) => !ignoreFolders.includes(dep.name))
         .map((folder) => path.resolve(base, folder.name))

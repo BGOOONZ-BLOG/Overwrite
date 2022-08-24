@@ -87,7 +87,7 @@ Memoization, Tabulation, and Sorting Algorithms by Example↩ Why is looking at 
 
 ### # [Python Guide](https://overwritebgoonzblog.netlify.app/docs/python/python-ds)
 
-*Python has a built in help function that let's you see a description↩ of the source code without having to navigate to it… "-SickNasty …↩ Autor Unknown" .*
+_Python has a built in help function that let's you see a description↩ of the source code without having to navigate to it… "-SickNasty …↩ Autor Unknown" ._
 
 [View Posts](https://overwritebgoonzblog.netlify.app/docs/python/python-ds)
 

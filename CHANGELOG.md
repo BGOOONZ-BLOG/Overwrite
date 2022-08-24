@@ -7,7 +7,6 @@ Git History on master by all authors
 
 </summary>
 
-
 Merge pull request #1564 from bgoonz/master
 3e3b8baab (HEAD -> master, origin/master, origin/HEAD) by Bryan C Guner <66654881+bgoonz@users.noreply.github.com>, Sat Jan 22 2022 (2 days ago)
 
@@ -1121,255 +1120,254 @@ Merge pull request #1478 from bgoonz/preview
 
 </summary>
 
-
 ## What's Changed
 
-* Merge pull request #1432 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1433>
-* Preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1434>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1436>
-* async-js by @bgoonz in <https://github.com/bgoonz/Overwritepull/1437>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1438>
-* Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1439>
-* Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1441>
-* Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1442>
-* Merge pull request #1442 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1443>
-* cs-basics-in-js.md: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1444>
-* Merge pull request #1444 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1445>
-* _docs.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1446>
-* STABLE---FIXED-DOCS_FORMATTINGMerge pull request #1446 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1447>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1448>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1449>
-* _reset.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1450>
-* Merge pull request #1450 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1451>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1452>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1453>
-* Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1454>
-* Merge pull request #1454 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1455>
-* Merge pull request #1455 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1456>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1457>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1458>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1459>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1460>
-* Add files via upload by @bgoonz in <https://github.com/bgoonz/Overwritepull/1461>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1462>
-* Update _general.scss by @bgoonz in <https://github.com/bgoonz/Overwritepull/1463>
-* index.md: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1464>
-* Merge pull request #1464 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1465>
-* _general.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1466>
-* Merge pull request #1466 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1467>
-* portfolio-91689538.jpg: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1468>
-* _general.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1469>
-* Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1470>
-* _posts.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1471>
-* Merge pull request #1471 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1472>
-* Create python-quiz.md by @bgoonz in <https://github.com/bgoonz/Overwritepull/1473>
-* Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1474>
-* Merge pull request #1474 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1475>
-* Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1476>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1639>
-* Merge pull request #1639 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1640>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1641>
-* Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1643>
-* Restyle -update by @restyled-io in <https://github.com/bgoonz/Overwritepull/1642>
-* Revert "Merge pull request #1574 from bgoonz/master" by @bgoonz in <https://github.com/bgoonz/Overwritepull/1653>
-* Restyled by clang-format by @bgoonz in <https://github.com/bgoonz/Overwritepull/1654>
-* Merge pull request #1654 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1655>
-* Merge pull request #1655 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1656>
-* Bump url-parse from 1.4.3 to 1.5.7 in /notes/future-implementations/gatsby-plugin-algolia/example by @dependabot in <https://github.com/bgoonz/Overwritepull/1650>
-* Bump url-parse by @bgoonz in <https://github.com/bgoonz/Overwritepull/1659>
-* Update _general.scss by @bgoonz in <https://github.com/bgoonz/Overwritepull/1657>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1661>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1663>
-* Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1664>
-* Merge pull request #1664 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1665>
-* Add .circleci/config.yml by @bgoonz in <https://github.com/bgoonz/Overwritepull/1660>
-* Add .circleci/config.yml by @bgoonz in <https://github.com/bgoonz/Overwritepull/1666>
-* Create BGOONZ_BLOG_2.0.git by @ladykraken in <https://github.com/bgoonz/Overwritepull/1652>
-* 1a7db48b5f17639cbacd645504b3afd5fd2e170f by @ladykraken in <https://github.com/bgoonz/Overwritepull/1651>
-* BGOONZ_BLOG_2.0/.github/workflows/makefile.yml by @bgoonz in <https://github.com/bgoonz/Overwritepull/1667>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1668>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1670>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1671>
-* Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1672>
-* Merge pull request #1672 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1673>
-* Bump marked from 0.6.1 to 4.0.10 by @dependabot in <https://github.com/bgoonz/Overwritepull/1674>
-* Bump marked from 0.6.1 to 4.0.10 by @bgoonz in <https://github.com/bgoonz/Overwritepull/1681>
-* Merge pull request#1673from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1682>
-* Merge pull request#1682from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1683>
-* Restyle Merge pull request#1682from bgoonz/preview by @restyled-io in <https://github.com/bgoonz/Overwritepull/1684>
-* Restyled by whitespace by @bgoonz in <https://github.com/bgoonz/Overwritepull/1686>
-* Restyle Restyled by whitespace by @restyled-io in <https://github.com/bgoonz/Overwritepull/1687>
-* Configure Sider by @sider in <https://github.com/bgoonz/Overwritepull/1685>
-* Merge pull request#1683from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1690>
-* pleaseeeee by @bgoonz in <https://github.com/bgoonz/Overwritepull/1692>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1693>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1694>
-* Restyle Merge pull request#1683from bgoonz/master by @restyled-io in <https://github.com/bgoonz/Overwritepull/1691>
-* Restyled by autopep8 by @bgoonz in <https://github.com/bgoonz/Overwritepull/1695>
-* Merge pull request #1695 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1696>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1697>
-* Merge pull request#1697from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1698>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1700>
-* Preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1701>
-* 446 by @bgoonz in <https://github.com/bgoonz/Overwritepull/1702>
-* Merge pull request #1702 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1703>
-* Merge pull request #1703 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1704>
-* img by @bgoonz in <https://github.com/bgoonz/Overwritepull/1705>
-* Merge pull request #1705 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1706>
-* Merge pull request#1705from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1707>
-* overwriting with better lost history by @bgoonz in <https://github.com/bgoonz/Overwritepull/1711>
-* Merge pull request #1711 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1712>
-* Merge pull request #1712 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1713>
-* Merge pull request #1713 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1714>
-* Delete _docs.scss by @bgoonz in <https://github.com/bgoonz/Overwritepull/1715>
-* y by @bgoonz in <https://github.com/bgoonz/Overwritepull/1716>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1719>
-* Merge pull request #1716 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1717>
-* Merge pull request #1717 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1720>
-* Delete lint.yml by @bgoonz in <https://github.com/bgoonz/Overwritepull/1721>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1722>
-* Merge pull request #1722 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1724>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1725>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1726>
-* Merge pull request#1725from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1727>
-* Merge pull request#1727from bgoonz/preview removed unused code like algolia search by @bgoonz in <https://github.com/bgoonz/Overwritepull/1728>
-* Merge pull request #1728 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1729>
-* Merge pull request #1729 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1730>
-* Update README.md by @bgoonz in <https://github.com/bgoonz/Overwritepull/1731>
-* jamstack.md: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1733>
-* Restyle jamstack.md: added by @restyled-io in <https://github.com/bgoonz/Overwritepull/1734>
-* Merge pull request #1733 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1735>
-* url.md: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1736>
-* Merge pull request #1736 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1738>
-* Restyle url.md: added by @restyled-io in <https://github.com/bgoonz/Overwritepull/1737>
-* Restyled by prettier-markdown by @bgoonz in <https://github.com/bgoonz/Overwritepull/1739>
-* Merge pull request #1739 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1741>
-* Merge pull request#1741from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1743>
-* markdown correcctions by @bgoonz in <https://github.com/bgoonz/Overwritepull/1745>
-* Restyle markdown correcctions by @restyled-io in <https://github.com/bgoonz/Overwritepull/1746>
-* Restyled by prettier-markdown by @bgoonz in <https://github.com/bgoonz/Overwritepull/1747>
-* js files by @bgoonz in <https://github.com/bgoonz/Overwritepull/1748>
-* logo-final-touchup.PNG: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1749>
-* Merge pull request #1749 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1750>
-* moved gists by @bgoonz in <https://github.com/bgoonz/Overwritepull/1752>
-* build(deps): bump axios from 0.16.2 to 0.21.2 by @dependabot in <https://github.com/bgoonz/Overwritepull/1751>
-* build(deps): bump axios from 0.16.2 to 0.21.2 by @bgoonz in <https://github.com/bgoonz/Overwritepull/1753>
-* Merge pull request#1750from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1754>
-* Merge pull request #1754 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1756>
-* styling by @bgoonz in <https://github.com/bgoonz/Overwritepull/1757>
-* leetcode by @bgoonz in <https://github.com/bgoonz/Overwritepull/1759>
-* Merge remote-tracking branch 'origin/preview' by @bgoonz in <https://github.com/bgoonz/Overwritepull/1760>
-* update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1761>
-* Merge pull request #1761 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1763>
-* Merge pull request #1763 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1764>
-* pull by @bgoonz in <https://github.com/bgoonz/Overwritepull/1765>
-* pull by @bgoonz in <https://github.com/bgoonz/Overwritepull/1766>
-* formatting by @bgoonz in <https://github.com/bgoonz/Overwritepull/1767>
-* package-lock.json deleted by @bgoonz in <https://github.com/bgoonz/Overwritepull/1769>
-* _general.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1770>
-* scss by @bgoonz in <https://github.com/bgoonz/Overwritepull/1771>
-* inital stable commit by @bgoonz in <https://github.com/bgoonz/Overwritepull/1772>
-* Merge remote-tracking branch 'origin/preview' by @bgoonz in <https://github.com/bgoonz/Overwritepull/1773>
-* iframe fixes by @bgoonz in <https://github.com/bgoonz/Overwritepull/1774>
-* formatting and connect table by @bgoonz in <https://github.com/bgoonz/Overwritepull/1775>
-* accessibility.md: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1777>
-* Merge pull request #1777 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1779>
-* Restyle accessibility.md: added by @restyled-io in <https://github.com/bgoonz/Overwritepull/1778>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1780>
-* Restyled by prettier-markdown by @bgoonz in <https://github.com/bgoonz/Overwritepull/1781>
-* Merge pull request #1781 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1782>
-* sitemap by @bgoonz in <https://github.com/bgoonz/Overwritepull/1784>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1786>
-* Add files via upload by @bgoonz in <https://github.com/bgoonz/Overwritepull/1787>
-* Merge pull request#1782from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1789>
-* Merge pull request #1789 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1790>
-* Merge pull request#1790from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1791>
-* Merge pull request #1791 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1792>
-* Merge pull request #1792 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1793>
-* Merge pull request #1793 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1795>
-* Restyle Merge pull request#1790from bgoonz/master by @restyled-io in <https://github.com/bgoonz/Overwritepull/1794>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1796>
-* Restyled by clang-format by @bgoonz in <https://github.com/bgoonz/Overwritepull/1797>
-* Restyle -update by @restyled-io in <https://github.com/bgoonz/Overwritepull/1798>
-* Restyled by prettier-markdown by @bgoonz in <https://github.com/bgoonz/Overwritepull/1799>
-* Delete package-lock.json by @bgoonz in <https://github.com/bgoonz/Overwritepull/1800>
-* Create label.yml by @bgoonz in <https://github.com/bgoonz/Overwritepull/1801>
-* Restyle Restyled by clang-format by @restyled-io in <https://github.com/bgoonz/Overwritepull/1802>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1803>
-* Merge pull request #1803 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1804>
-* Merge pull request #1804 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1805>
-* removed prototype from titles by @bgoonz in <https://github.com/bgoonz/Overwritepull/1806>
-* removed prototype from titles by @bgoonz in <https://github.com/bgoonz/Overwritepull/1807>
-* removed prototype from titles by @bgoonz in <https://github.com/bgoonz/Overwritepull/1808>
-* mdn by @bgoonz in <https://github.com/bgoonz/Overwritepull/1809>
-* Restyle mdn by @restyled-io in <https://github.com/bgoonz/Overwritepull/1810>
-* Restyled by prettier-markdown by @bgoonz in <https://github.com/bgoonz/Overwritepull/1811>
-* Merge remote-tracking branch 'origin/preview' by @bgoonz in <https://github.com/bgoonz/Overwritepull/1812>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1813>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1815>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1816>
-* Merge pull request#1811from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1817>
-* Restyle Merge pull request#1811from bgoonz/master by @restyled-io in <https://github.com/bgoonz/Overwritepull/1818>
-* Merge pull request #1817 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1819>
-* formatting by @bgoonz in <https://github.com/bgoonz/Overwritepull/1820>
-* Merge pull request #1820 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1821>
-* Merge pull request #1821 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1822>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1823>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1826>
-* Merge pull request #1826 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1827>
-* Merge pull request #1827 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1828>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1829>
-* -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1832>
-* update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1833>
-* update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1834>
-* Merge pull request#1828from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1836>
-* Restyle  update by @restyled-io in <https://github.com/bgoonz/Overwritepull/1835>
-* Restyled by jq by @bgoonz in <https://github.com/bgoonz/Overwritepull/1837>
-* deleted script by @bgoonz in <https://github.com/bgoonz/Overwritepull/1838>
-* Merge pull request#1837from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1839>
-* Merge pull request #1839 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1840>
-* Merge pull request #1840 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1841>
-* docs by @bgoonz in <https://github.com/bgoonz/Overwritepull/1842>
-* Update README.md by @bgoonz in <https://github.com/bgoonz/Overwritepull/1843>
-* Merge pull request#1842from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1844>
-* organized imports by @bgoonz in <https://github.com/bgoonz/Overwritepull/1845>
-* update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1846>
-* Merge pull request#1845from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1847>
-* initial components  by @bgoonz in <https://github.com/bgoonz/Overwritepull/1848>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1850>
-* Merge pull request #1848 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1849>
-* de by @bgoonz in <https://github.com/bgoonz/Overwritepull/1852>
-* update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1853>
-* Merge pull request#1852from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1854>
-* hi dad by @bgoonz in <https://github.com/bgoonz/Overwritepull/1855>
-* ds-algo by @bgoonz in <https://github.com/bgoonz/Overwritepull/1856>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1857>
-* Merge pull request#1855from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1858>
-* git-banner.png by @bgoonz in <https://github.com/bgoonz/Overwritepull/1860>
-* Merge pull request #1860 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1861>
-* Merge pull request#1861from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1862>
-* Merge pull request #1862 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1863>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1865>
-* Merge pull request #1863 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1864>
-* Merge pull request#1864from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1866>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1867>
-* formatting by @bgoonz in <https://github.com/bgoonz/Overwritepull/1869>
-* Merge pull request#1866from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1868>
-* Merge pull request #1868 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1871>
-* update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1872>
-* update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1873>
-* Merge pull request#1871from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1874>
-* Merge pull request #1874 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1875>
-* Merge pull request #1875 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1876>
-* styling by @bgoonz in <https://github.com/bgoonz/Overwritepull/1877>
-* hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1879>
-* Merge pull request #1879 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1880>
+-   Merge pull request #1432 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1433>
+-   Preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1434>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1436>
+-   async-js by @bgoonz in <https://github.com/bgoonz/Overwritepull/1437>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1438>
+-   Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1439>
+-   Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1441>
+-   Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1442>
+-   Merge pull request #1442 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1443>
+-   cs-basics-in-js.md: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1444>
+-   Merge pull request #1444 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1445>
+-   \_docs.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1446>
+-   STABLE---FIXED-DOCS_FORMATTINGMerge pull request #1446 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1447>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1448>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1449>
+-   \_reset.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1450>
+-   Merge pull request #1450 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1451>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1452>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1453>
+-   Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1454>
+-   Merge pull request #1454 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1455>
+-   Merge pull request #1455 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1456>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1457>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1458>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1459>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1460>
+-   Add files via upload by @bgoonz in <https://github.com/bgoonz/Overwritepull/1461>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1462>
+-   Update \_general.scss by @bgoonz in <https://github.com/bgoonz/Overwritepull/1463>
+-   index.md: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1464>
+-   Merge pull request #1464 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1465>
+-   \_general.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1466>
+-   Merge pull request #1466 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1467>
+-   portfolio-91689538.jpg: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1468>
+-   \_general.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1469>
+-   Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1470>
+-   \_posts.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1471>
+-   Merge pull request #1471 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1472>
+-   Create python-quiz.md by @bgoonz in <https://github.com/bgoonz/Overwritepull/1473>
+-   Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1474>
+-   Merge pull request #1474 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1475>
+-   Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1476>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1639>
+-   Merge pull request #1639 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1640>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1641>
+-   Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1643>
+-   Restyle -update by @restyled-io in <https://github.com/bgoonz/Overwritepull/1642>
+-   Revert "Merge pull request #1574 from bgoonz/master" by @bgoonz in <https://github.com/bgoonz/Overwritepull/1653>
+-   Restyled by clang-format by @bgoonz in <https://github.com/bgoonz/Overwritepull/1654>
+-   Merge pull request #1654 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1655>
+-   Merge pull request #1655 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1656>
+-   Bump url-parse from 1.4.3 to 1.5.7 in /notes/future-implementations/gatsby-plugin-algolia/example by @dependabot in <https://github.com/bgoonz/Overwritepull/1650>
+-   Bump url-parse by @bgoonz in <https://github.com/bgoonz/Overwritepull/1659>
+-   Update \_general.scss by @bgoonz in <https://github.com/bgoonz/Overwritepull/1657>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1661>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1663>
+-   Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1664>
+-   Merge pull request #1664 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1665>
+-   Add .circleci/config.yml by @bgoonz in <https://github.com/bgoonz/Overwritepull/1660>
+-   Add .circleci/config.yml by @bgoonz in <https://github.com/bgoonz/Overwritepull/1666>
+-   Create BGOONZ_BLOG_2.0.git by @ladykraken in <https://github.com/bgoonz/Overwritepull/1652>
+-   1a7db48b5f17639cbacd645504b3afd5fd2e170f by @ladykraken in <https://github.com/bgoonz/Overwritepull/1651>
+-   BGOONZ_BLOG_2.0/.github/workflows/makefile.yml by @bgoonz in <https://github.com/bgoonz/Overwritepull/1667>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1668>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1670>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1671>
+-   Merge pull request by @bgoonz in <https://github.com/bgoonz/Overwritepull/1672>
+-   Merge pull request #1672 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1673>
+-   Bump marked from 0.6.1 to 4.0.10 by @dependabot in <https://github.com/bgoonz/Overwritepull/1674>
+-   Bump marked from 0.6.1 to 4.0.10 by @bgoonz in <https://github.com/bgoonz/Overwritepull/1681>
+-   Merge pull request#1673from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1682>
+-   Merge pull request#1682from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1683>
+-   Restyle Merge pull request#1682from bgoonz/preview by @restyled-io in <https://github.com/bgoonz/Overwritepull/1684>
+-   Restyled by whitespace by @bgoonz in <https://github.com/bgoonz/Overwritepull/1686>
+-   Restyle Restyled by whitespace by @restyled-io in <https://github.com/bgoonz/Overwritepull/1687>
+-   Configure Sider by @sider in <https://github.com/bgoonz/Overwritepull/1685>
+-   Merge pull request#1683from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1690>
+-   pleaseeeee by @bgoonz in <https://github.com/bgoonz/Overwritepull/1692>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1693>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1694>
+-   Restyle Merge pull request#1683from bgoonz/master by @restyled-io in <https://github.com/bgoonz/Overwritepull/1691>
+-   Restyled by autopep8 by @bgoonz in <https://github.com/bgoonz/Overwritepull/1695>
+-   Merge pull request #1695 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1696>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1697>
+-   Merge pull request#1697from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1698>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1700>
+-   Preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1701>
+-   446 by @bgoonz in <https://github.com/bgoonz/Overwritepull/1702>
+-   Merge pull request #1702 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1703>
+-   Merge pull request #1703 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1704>
+-   img by @bgoonz in <https://github.com/bgoonz/Overwritepull/1705>
+-   Merge pull request #1705 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1706>
+-   Merge pull request#1705from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1707>
+-   overwriting with better lost history by @bgoonz in <https://github.com/bgoonz/Overwritepull/1711>
+-   Merge pull request #1711 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1712>
+-   Merge pull request #1712 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1713>
+-   Merge pull request #1713 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1714>
+-   Delete \_docs.scss by @bgoonz in <https://github.com/bgoonz/Overwritepull/1715>
+-   y by @bgoonz in <https://github.com/bgoonz/Overwritepull/1716>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1719>
+-   Merge pull request #1716 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1717>
+-   Merge pull request #1717 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1720>
+-   Delete lint.yml by @bgoonz in <https://github.com/bgoonz/Overwritepull/1721>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1722>
+-   Merge pull request #1722 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1724>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1725>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1726>
+-   Merge pull request#1725from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1727>
+-   Merge pull request#1727from bgoonz/preview removed unused code like algolia search by @bgoonz in <https://github.com/bgoonz/Overwritepull/1728>
+-   Merge pull request #1728 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1729>
+-   Merge pull request #1729 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1730>
+-   Update README.md by @bgoonz in <https://github.com/bgoonz/Overwritepull/1731>
+-   jamstack.md: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1733>
+-   Restyle jamstack.md: added by @restyled-io in <https://github.com/bgoonz/Overwritepull/1734>
+-   Merge pull request #1733 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1735>
+-   url.md: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1736>
+-   Merge pull request #1736 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1738>
+-   Restyle url.md: added by @restyled-io in <https://github.com/bgoonz/Overwritepull/1737>
+-   Restyled by prettier-markdown by @bgoonz in <https://github.com/bgoonz/Overwritepull/1739>
+-   Merge pull request #1739 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1741>
+-   Merge pull request#1741from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1743>
+-   markdown correcctions by @bgoonz in <https://github.com/bgoonz/Overwritepull/1745>
+-   Restyle markdown correcctions by @restyled-io in <https://github.com/bgoonz/Overwritepull/1746>
+-   Restyled by prettier-markdown by @bgoonz in <https://github.com/bgoonz/Overwritepull/1747>
+-   js files by @bgoonz in <https://github.com/bgoonz/Overwritepull/1748>
+-   logo-final-touchup.PNG: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1749>
+-   Merge pull request #1749 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1750>
+-   moved gists by @bgoonz in <https://github.com/bgoonz/Overwritepull/1752>
+-   build(deps): bump axios from 0.16.2 to 0.21.2 by @dependabot in <https://github.com/bgoonz/Overwritepull/1751>
+-   build(deps): bump axios from 0.16.2 to 0.21.2 by @bgoonz in <https://github.com/bgoonz/Overwritepull/1753>
+-   Merge pull request#1750from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1754>
+-   Merge pull request #1754 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1756>
+-   styling by @bgoonz in <https://github.com/bgoonz/Overwritepull/1757>
+-   leetcode by @bgoonz in <https://github.com/bgoonz/Overwritepull/1759>
+-   Merge remote-tracking branch 'origin/preview' by @bgoonz in <https://github.com/bgoonz/Overwritepull/1760>
+-   update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1761>
+-   Merge pull request #1761 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1763>
+-   Merge pull request #1763 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1764>
+-   pull by @bgoonz in <https://github.com/bgoonz/Overwritepull/1765>
+-   pull by @bgoonz in <https://github.com/bgoonz/Overwritepull/1766>
+-   formatting by @bgoonz in <https://github.com/bgoonz/Overwritepull/1767>
+-   package-lock.json deleted by @bgoonz in <https://github.com/bgoonz/Overwritepull/1769>
+-   \_general.scss: changed by @bgoonz in <https://github.com/bgoonz/Overwritepull/1770>
+-   scss by @bgoonz in <https://github.com/bgoonz/Overwritepull/1771>
+-   inital stable commit by @bgoonz in <https://github.com/bgoonz/Overwritepull/1772>
+-   Merge remote-tracking branch 'origin/preview' by @bgoonz in <https://github.com/bgoonz/Overwritepull/1773>
+-   iframe fixes by @bgoonz in <https://github.com/bgoonz/Overwritepull/1774>
+-   formatting and connect table by @bgoonz in <https://github.com/bgoonz/Overwritepull/1775>
+-   accessibility.md: added by @bgoonz in <https://github.com/bgoonz/Overwritepull/1777>
+-   Merge pull request #1777 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1779>
+-   Restyle accessibility.md: added by @restyled-io in <https://github.com/bgoonz/Overwritepull/1778>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1780>
+-   Restyled by prettier-markdown by @bgoonz in <https://github.com/bgoonz/Overwritepull/1781>
+-   Merge pull request #1781 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1782>
+-   sitemap by @bgoonz in <https://github.com/bgoonz/Overwritepull/1784>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1786>
+-   Add files via upload by @bgoonz in <https://github.com/bgoonz/Overwritepull/1787>
+-   Merge pull request#1782from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1789>
+-   Merge pull request #1789 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1790>
+-   Merge pull request#1790from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1791>
+-   Merge pull request #1791 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1792>
+-   Merge pull request #1792 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1793>
+-   Merge pull request #1793 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1795>
+-   Restyle Merge pull request#1790from bgoonz/master by @restyled-io in <https://github.com/bgoonz/Overwritepull/1794>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1796>
+-   Restyled by clang-format by @bgoonz in <https://github.com/bgoonz/Overwritepull/1797>
+-   Restyle -update by @restyled-io in <https://github.com/bgoonz/Overwritepull/1798>
+-   Restyled by prettier-markdown by @bgoonz in <https://github.com/bgoonz/Overwritepull/1799>
+-   Delete package-lock.json by @bgoonz in <https://github.com/bgoonz/Overwritepull/1800>
+-   Create label.yml by @bgoonz in <https://github.com/bgoonz/Overwritepull/1801>
+-   Restyle Restyled by clang-format by @restyled-io in <https://github.com/bgoonz/Overwritepull/1802>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1803>
+-   Merge pull request #1803 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1804>
+-   Merge pull request #1804 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1805>
+-   removed prototype from titles by @bgoonz in <https://github.com/bgoonz/Overwritepull/1806>
+-   removed prototype from titles by @bgoonz in <https://github.com/bgoonz/Overwritepull/1807>
+-   removed prototype from titles by @bgoonz in <https://github.com/bgoonz/Overwritepull/1808>
+-   mdn by @bgoonz in <https://github.com/bgoonz/Overwritepull/1809>
+-   Restyle mdn by @restyled-io in <https://github.com/bgoonz/Overwritepull/1810>
+-   Restyled by prettier-markdown by @bgoonz in <https://github.com/bgoonz/Overwritepull/1811>
+-   Merge remote-tracking branch 'origin/preview' by @bgoonz in <https://github.com/bgoonz/Overwritepull/1812>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1813>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1815>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1816>
+-   Merge pull request#1811from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1817>
+-   Restyle Merge pull request#1811from bgoonz/master by @restyled-io in <https://github.com/bgoonz/Overwritepull/1818>
+-   Merge pull request #1817 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1819>
+-   formatting by @bgoonz in <https://github.com/bgoonz/Overwritepull/1820>
+-   Merge pull request #1820 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1821>
+-   Merge pull request #1821 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1822>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1823>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1826>
+-   Merge pull request #1826 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1827>
+-   Merge pull request #1827 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1828>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1829>
+-   -update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1832>
+-   update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1833>
+-   update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1834>
+-   Merge pull request#1828from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1836>
+-   Restyle update by @restyled-io in <https://github.com/bgoonz/Overwritepull/1835>
+-   Restyled by jq by @bgoonz in <https://github.com/bgoonz/Overwritepull/1837>
+-   deleted script by @bgoonz in <https://github.com/bgoonz/Overwritepull/1838>
+-   Merge pull request#1837from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1839>
+-   Merge pull request #1839 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1840>
+-   Merge pull request #1840 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1841>
+-   docs by @bgoonz in <https://github.com/bgoonz/Overwritepull/1842>
+-   Update README.md by @bgoonz in <https://github.com/bgoonz/Overwritepull/1843>
+-   Merge pull request#1842from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1844>
+-   organized imports by @bgoonz in <https://github.com/bgoonz/Overwritepull/1845>
+-   update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1846>
+-   Merge pull request#1845from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1847>
+-   initial components by @bgoonz in <https://github.com/bgoonz/Overwritepull/1848>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1850>
+-   Merge pull request #1848 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1849>
+-   de by @bgoonz in <https://github.com/bgoonz/Overwritepull/1852>
+-   update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1853>
+-   Merge pull request#1852from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1854>
+-   hi dad by @bgoonz in <https://github.com/bgoonz/Overwritepull/1855>
+-   ds-algo by @bgoonz in <https://github.com/bgoonz/Overwritepull/1856>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1857>
+-   Merge pull request#1855from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1858>
+-   git-banner.png by @bgoonz in <https://github.com/bgoonz/Overwritepull/1860>
+-   Merge pull request #1860 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1861>
+-   Merge pull request#1861from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1862>
+-   Merge pull request #1862 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1863>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1865>
+-   Merge pull request #1863 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1864>
+-   Merge pull request#1864from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1866>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1867>
+-   formatting by @bgoonz in <https://github.com/bgoonz/Overwritepull/1869>
+-   Merge pull request#1866from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1868>
+-   Merge pull request #1868 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1871>
+-   update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1872>
+-   update by @bgoonz in <https://github.com/bgoonz/Overwritepull/1873>
+-   Merge pull request#1871from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1874>
+-   Merge pull request #1874 from bgoonz/preview by @bgoonz in <https://github.com/bgoonz/Overwritepull/1875>
+-   Merge pull request #1875 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1876>
+-   styling by @bgoonz in <https://github.com/bgoonz/Overwritepull/1877>
+-   hi by @bgoonz in <https://github.com/bgoonz/Overwritepull/1879>
+-   Merge pull request #1879 from bgoonz/master by @bgoonz in <https://github.com/bgoonz/Overwritepull/1880>
 
 ## New Contributors
 
-* @dependabot made their first contribution in <https://github.com/bgoonz/Overwritepull/1650>
-* @ladykraken made their first contribution in <https://github.com/bgoonz/Overwritepull/1652>
-* @sider made their first contribution in <https://github.com/bgoonz/Overwritepull/1685>
+-   @dependabot made their first contribution in <https://github.com/bgoonz/Overwritepull/1650>
+-   @ladykraken made their first contribution in <https://github.com/bgoonz/Overwritepull/1652>
+-   @sider made their first contribution in <https://github.com/bgoonz/Overwritepull/1685>
 
 **Full Changelog**: <https://github.com/bgoonz/Overwritecompare/download...2022>
 

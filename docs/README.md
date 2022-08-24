@@ -1544,7 +1544,7 @@ sudo -u postgres psql
 
 ## 96. URL To Subscribe To YouTube Channel
 
-| URL                  | <https://overwritebgoonzblog.netlify.app>                        |
+| URL                  | <https://overwritebgoonzblog.netlify.app>                |
 | -------------------- | -------------------------------------------------------- |
 | Miscellaneous        | webpack ; Prism                                          |
 | Widgets              | Facebook ; AddThis                                       |
