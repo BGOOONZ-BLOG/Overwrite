@@ -140,7 +140,7 @@ weight: 0
 - [https://bg-portfolio](https://bg-portfolio.netlify.app)
 - [https://bg-resume](https://bg-resume.netlify.app)
 - [https://bgoonz-blog-v3-0](https://bgoonz-blog-v3-0.netlify.app)
-- [https://bgoonz-blog](https://bgoonz-blog.netlify.app)
+- [https://bgoonz-blog](https://overwritebgoonzblog.netlify.app)
 - [https://bgoonz-bookmarks](https://bgoonz-bookmarks.netlify.app)
 - [https://bgoonz-cv](https://bgoonz-cv.netlify.app)
 - [https://bgoonz-games](https://bgoonz-games.netlify.app)

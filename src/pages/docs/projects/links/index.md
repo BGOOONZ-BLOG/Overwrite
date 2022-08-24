@@ -39,7 +39,7 @@ excerpt: Links to my websites
 | <https://bgoonz-blog-2-0.pages.dev/docs/tools/link>                                                 |
 | <https://bgoonz-blog-2-0.pages.dev/docs/tutorials>                                                  |
 | <https://bgoonz-blog.netlify>                                                                       |
-| <https://bgoonz-blog.netlify.app>                                                                   |
+| <https://overwritebgoonzblog.netlify.app>                                                                   |
 | <https://overwritebgoonzblog.netlify.app/>                                                                  |
 | <https://overwritebgoonzblog.netlify.app/>"                                                                 |
 | <https://overwritebgoonzblog.netlify.app/>"<https://bgoonz-blog.netlify>                                    |
