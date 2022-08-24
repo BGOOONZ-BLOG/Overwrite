@@ -1,64 +1,88 @@
 ## Action Link
 
-> This class is a React component that renders a link to a URL, with optional styling and attributes. */
+> This class is a React component that renders a link to a URL, with optional styling and attributes. \*/
+
 ```jsx
 import React from 'react';
 import _ from 'lodash';
 
-import {Link, withPrefix, classNames} from '../utils';
+import { Link, withPrefix, classNames } from '../utils';
 import Icon from './Icon';
 
 export default class ActionLink extends React.Component {
     render() {
         let action = _.get(this.props, 'action', null);
         return (
-            <Link to={withPrefix(_.get(action, 'url', null))}
-              {...(_.get(action, 'new_window', null) ? ({target: '_blank'}) : null)}
-              {...((_.get(action, 'new_window', null) || _.get(action, 'no_follow', null)) ? ({rel: (_.get(action, 'new_window', null) ? ('noopener ') : '') + (_.get(action, 'no_follow', null) ? ('nofollow') : '')}) : null)}
-              className={classNames({'button': _.get(action, 'style', null) !== 'link', 'button-secondary': _.get(action, 'style', null) === 'secondary', 'button-icon': _.get(action, 'style', null) === 'icon'})}>
-              {((_.get(action, 'style', null) === 'icon') && _.get(action, 'icon_class', null)) ? (<React.Fragment>
-                <Icon {...this.props} icon={_.get(action, 'icon_class', null)} />
-                <span className="screen-reader-text">{_.get(action, 'label', null)}</span>
-              </React.Fragment>) : 
-                _.get(action, 'label', null)
-              }
+            <Link
+                to={withPrefix(_.get(action, 'url', null))}
+                {...(_.get(action, 'new_window', null) ? { target: '_blank' } : null)}
+                {...(_.get(action, 'new_window', null) || _.get(action, 'no_follow', null)
+                    ? { rel: (_.get(action, 'new_window', null) ? 'noopener ' : '') + (_.get(action, 'no_follow', null) ? 'nofollow' : '') }
+                    : null)}
+                className={classNames({
+                    button: _.get(action, 'style', null) !== 'link',
+                    'button-secondary': _.get(action, 'style', null) === 'secondary',
+                    'button-icon': _.get(action, 'style', null) === 'icon'
+                })}
+            >
+                {_.get(action, 'style', null) === 'icon' && _.get(action, 'icon_class', null) ? (
+                    <React.Fragment>
+                        <Icon {...this.props} icon={_.get(action, 'icon_class', null)} />
+                        <span className="screen-reader-text">{_.get(action, 'label', null)}</span>
+                    </React.Fragment>
+                ) : (
+                    _.get(action, 'label', null)
+                )}
             </Link>
         );
     }
 }
 ```
+
 # CtaButtons
->  It's a React component that renders a button or a link. */
+
+> It's a React component that renders a button or a link. \*/
+
 ```jsx
 import React from 'react';
 import _ from 'lodash';
 
-import {Link, withPrefix, classNames} from '../utils';
+import { Link, withPrefix, classNames } from '../utils';
 
 export default class CtaButtons extends React.Component {
     render() {
         let actions = _.get(this.props, 'actions', null);
-        return (
-            _.map(actions, (action, action_idx) => (
-            <Link key={action_idx} to={withPrefix(_.get(action, 'url', null))}
-              {...(_.get(action, 'new_window', null) ? ({target: '_blank'}) : null)}
-              {...((_.get(action, 'new_window', null) || _.get(action, 'no_follow', null)) ? ({rel: (_.get(action, 'new_window', null) ? ('noopener ') : '') + (_.get(action, 'no_follow', null) ? ('nofollow') : '')}) : null)}
-              className={classNames({'button': (_.get(action, 'style', null) === 'primary') || (_.get(action, 'style', null) === 'secondary'), 'button-secondary': _.get(action, 'style', null) === 'secondary'})}>{_.get(action, 'label', null)}</Link>
-            ))
-        );
+        return _.map(actions, (action, action_idx) => (
+            <Link
+                key={action_idx}
+                to={withPrefix(_.get(action, 'url', null))}
+                {...(_.get(action, 'new_window', null) ? { target: '_blank' } : null)}
+                {...(_.get(action, 'new_window', null) || _.get(action, 'no_follow', null)
+                    ? { rel: (_.get(action, 'new_window', null) ? 'noopener ' : '') + (_.get(action, 'no_follow', null) ? 'nofollow' : '') }
+                    : null)}
+                className={classNames({
+                    button: _.get(action, 'style', null) === 'primary' || _.get(action, 'style', null) === 'secondary',
+                    'button-secondary': _.get(action, 'style', null) === 'secondary'
+                })}
+            >
+                {_.get(action, 'label', null)}
+            </Link>
+        ));
     }
 }
 ```
+
 ---
 
 ## DocsMenu
 
->   It's a React component that renders a menu of links to pages in a Hugo site. */
+> It's a React component that renders a menu of links to pages in a Hugo site. \*/
+
 ```jsx
 import React from 'react';
 import _ from 'lodash';
 
-import {getPage, classNames, Link, withPrefix, pathJoin, getPages} from '../utils';
+import { getPage, classNames, Link, withPrefix, pathJoin, getPages } from '../utils';
 import DocsSubmenu from './DocsSubmenu';
 
 export default class DocsMenu extends React.Component {
@@ -69,49 +93,68 @@ export default class DocsMenu extends React.Component {
         let root_page = getPage(this.props.pageContext.pages, root_docs_path);
         return (
             <nav id="docs-nav" className="docs-nav">
-              <div id="docs-nav-inside" className="docs-nav-inside sticky">
-                <button id="docs-nav-toggle" className="docs-nav-toggle">Navigate Docs<span className="icon-angle-right" aria-hidden="true" /></button>
-                <div className="docs-nav-menu">
-                  <ul id="docs-menu" className="docs-menu">
-                    <li className={classNames('docs-menu-item', {'current': _.get(page, 'url', null) === _.get(root_page, 'url', null)})}>
-                      <Link to={withPrefix(_.get(root_page, 'url', null))}>{_.get(root_page, 'frontmatter.title', null)}</Link>
-                    </li>
-                    {_.map(_.get(site, 'data.doc_sections.sections', null), (section, section_idx) => {
-                        let section_path = pathJoin(root_docs_path, section);
-                        let section_page = getPage(this.props.pageContext.pages, section_path);
-                        let child_pages = _.orderBy(getPages(this.props.pageContext.pages, section_path), 'frontmatter.weight');
-                        let child_count = _.size(child_pages);
-                        let has_children = (child_count > 0) ? (true) : false;
-                        let is_current_page = (_.get(page, 'url', null) === _.get(section_page, 'url', null)) ? (true) : false;
-                        let is_active = _.get(page, 'url', null).startsWith(_.get(section_page, 'url', null));
-                        return (<React.Fragment key={section_idx + '.1'}>
-                          <li key={section_idx} className={classNames('docs-menu-item', {'has-children': has_children, 'current': is_current_page, 'active': is_active})}>
-                            <Link to={withPrefix(_.get(section_page, 'url', null))}>{_.get(section_page, 'frontmatter.title', null)}</Link>
-                            {has_children && (<React.Fragment>
-                              <button className="docs-submenu-toggle"><span className="screen-reader-text">Submenu</span><span className="icon-angle-right" aria-hidden="true" /></button>
-                              <DocsSubmenu {...this.props} child_pages={child_pages} page={page} site={site} />
-                            </React.Fragment>)}
-                          </li>
-                        </React.Fragment>)
-                    })}
-                  </ul>
+                <div id="docs-nav-inside" className="docs-nav-inside sticky">
+                    <button id="docs-nav-toggle" className="docs-nav-toggle">
+                        Navigate Docs
+                        <span className="icon-angle-right" aria-hidden="true" />
+                    </button>
+                    <div className="docs-nav-menu">
+                        <ul id="docs-menu" className="docs-menu">
+                            <li className={classNames('docs-menu-item', { current: _.get(page, 'url', null) === _.get(root_page, 'url', null) })}>
+                                <Link to={withPrefix(_.get(root_page, 'url', null))}>{_.get(root_page, 'frontmatter.title', null)}</Link>
+                            </li>
+                            {_.map(_.get(site, 'data.doc_sections.sections', null), (section, section_idx) => {
+                                let section_path = pathJoin(root_docs_path, section);
+                                let section_page = getPage(this.props.pageContext.pages, section_path);
+                                let child_pages = _.orderBy(getPages(this.props.pageContext.pages, section_path), 'frontmatter.weight');
+                                let child_count = _.size(child_pages);
+                                let has_children = child_count > 0 ? true : false;
+                                let is_current_page = _.get(page, 'url', null) === _.get(section_page, 'url', null) ? true : false;
+                                let is_active = _.get(page, 'url', null).startsWith(_.get(section_page, 'url', null));
+                                return (
+                                    <React.Fragment key={section_idx + '.1'}>
+                                        <li
+                                            key={section_idx}
+                                            className={classNames('docs-menu-item', {
+                                                'has-children': has_children,
+                                                current: is_current_page,
+                                                active: is_active
+                                            })}
+                                        >
+                                            <Link to={withPrefix(_.get(section_page, 'url', null))}>{_.get(section_page, 'frontmatter.title', null)}</Link>
+                                            {has_children && (
+                                                <React.Fragment>
+                                                    <button className="docs-submenu-toggle">
+                                                        <span className="screen-reader-text">Submenu</span>
+                                                        <span className="icon-angle-right" aria-hidden="true" />
+                                                    </button>
+                                                    <DocsSubmenu {...this.props} child_pages={child_pages} page={page} site={site} />
+                                                </React.Fragment>
+                                            )}
+                                        </li>
+                                    </React.Fragment>
+                                );
+                            })}
+                        </ul>
+                    </div>
                 </div>
-              </div>
             </nav>
         );
     }
 }
 ```
+
 ---
 
 ## DocsSubmenu
 
->   This class renders a list of links to child pages of the current page. */
+> This class renders a list of links to child pages of the current page. \*/
+
 ```jsx
 import React from 'react';
 import _ from 'lodash';
 
-import {classNames, Link, withPrefix} from '../utils';
+import { classNames, Link, withPrefix } from '../utils';
 
 export default class DocsSubmenu extends React.Component {
     render() {
@@ -119,22 +162,23 @@ export default class DocsSubmenu extends React.Component {
         let page = _.get(this.props, 'page', null);
         return (
             <ul className="docs-submenu">
-              {_.map(child_pages, (child_page, child_page_idx) => (
-                <li key={child_page_idx} className={classNames('docs-menu-item', {'current': _.get(page, 'url', null) === _.get(child_page, 'url', null)})}>
-                  <Link to={withPrefix(_.get(child_page, 'url', null))}>{_.get(child_page, 'frontmatter.title', null)}</Link>
-                </li>
-              ))}
+                {_.map(child_pages, (child_page, child_page_idx) => (
+                    <li key={child_page_idx} className={classNames('docs-menu-item', { current: _.get(page, 'url', null) === _.get(child_page, 'url', null) })}>
+                        <Link to={withPrefix(_.get(child_page, 'url', null))}>{_.get(child_page, 'frontmatter.title', null)}</Link>
+                    </li>
+                ))}
             </ul>
         );
     }
 }
 ```
+
 ---
 
 ##
 
->   
-import _ from 'lodash';
+> import \_ from 'lodash';
+
 ```jsx
 import React from 'react';
 import { htmlToReact } from '../utils';
@@ -144,174 +188,157 @@ export default class Footer extends React.Component {
         return (
             <footer id="colophon" className="site-footer outer">
                 <div>
-                        <table cellPadding={0}
-                            cellSpacing={0}
-                            border={0}>
-                            <tbody>
-                                <tr>
-                                    <td style={
-                                        {
+                    <table cellPadding={0} cellSpacing={0} border={0}>
+                        <tbody>
+                            <tr>
+                                <td
+                                    style={{
+                                        fontFamily: 'Arial, Helvetica, sans-serif',
+                                        fontSize: '7.5pt'
+                                    }}
+                                >
+                                    <table
+                                        width="95%"
+                                        cellPadding={0}
+                                        cellSpacing={0}
+                                        border={0}
+                                        style={{
                                             fontFamily: 'Arial, Helvetica, sans-serif',
                                             fontSize: '7.5pt'
-                                        }
-                                    }>
-                                            <table width="95%"
-                                                cellPadding={0}
-                                                cellSpacing={0}
-                                                border={0}
-                                                style={
-                                                    {
+                                        }}
+                                    >
+                                        <tbody>
+                                            <tr>
+                                                <td
+                                                    style={{
                                                         fontFamily: 'Arial, Helvetica, sans-serif',
                                                         fontSize: '7.5pt'
-                                                    }
-                                                }>
-                                                <tbody>
-                                                    <tr>
-                                                        <td style={
-                                                            {
-                                                                fontFamily: 'Arial, Helvetica, sans-serif',
-                                                                fontSize: '7.5pt'
-                                                            }
-                                                        }
-                                                            align="left">
-                                                            <a target="_blank" href="https://search.freefind.com/siteindex.html?si=14588965">
-                                                                index
-                                                            </a>
-                                                        </td>
-                                                        <td style={
-                                                            {
-                                                                fontFamily: 'Arial, Helvetica, sans-serif',
-                                                                fontSize: '7.5pt'
-                                                            }
-                                                        }
-                                                            align="center">
-                                                            <a target="_blank" href="https://search.freefind.com/find.html?si=14588965&m=0&p=0">
-                                                                sitemap
-                                                            </a>
-                                                        </td>
-                                                        <td style={
-                                                            {
-                                                                fontFamily: 'Arial, Helvetica, sans-serif',
-                                                                fontSize: '7.5pt'
-                                                            }
-                                                        }
-                                                            align="right">
-                                                            <a target="_blank" href="https://search.freefind.com/find.html?si=14588965&pid=a">
-                                                                advanced
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        <form style={
-                                            {
-                                                margin: '0px',
-                                                marginTop: '2px'
-                                            }
-                                        }
-                                            action="https://search.freefind.com/find.html"
-                                            method="get"
-                                            acceptCharset="utf-8"
-                                            target="_self">
-                                            <input type="hidden" name="si"
-                                                defaultValue={14588965} />
-                                            <input type="hidden" name="pid" defaultValue="r" />
-                                            <input type="hidden" name="n"
-                                                defaultValue={0} />
-                                            <input type="hidden" name="_charset_" defaultValue />
-                                            <input type="hidden" name="bcd" defaultValue="÷" />
-                                            <input type="text" name="query"
-                                                size={15} />
-                                            <input type="submit" defaultValue="search" />
-                                        </form>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style={
-                                        {
-                                            textAlign: 'center',
-                                            fontFamily: 'Arial, Helvetica, sans-serif',
-                                            fontSize: '7.5pt',
-                                            paddingTop: '4px'
-                                        }
-                                    }>
-                                        <a style={
-                                            {
-                                                textDecoration: 'none',
-                                                color: 'transparent'
-                                            }
-                                        }
-                                            href="https://www.freefind.com"
-                                            rel="nofollow">
-                                            search engine
-                                        </a>
-                                        <a style={
-                                            {
-                                                textDecoration: 'none',
-                                                color: 'transparent'
-                                            }
-                                        }
-                                            href="https://www.freefind.com"
-                                            rel="nofollow">
-                                            by
-                                            <span style={
-                                                { color: 'transparent' }
-                                            }>freefind</span>
-                                        </a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-<a href = "//pdfcrowd.com/url_to_pdf/?" onclick = {`if(!this.p)href+='&url='+encodeURIComponent(location.href);this.p=1`} > Save to PDF </a>
+                                                    }}
+                                                    align="left"
+                                                >
+                                                    <a target="_blank" href="https://search.freefind.com/siteindex.html?si=14588965">
+                                                        index
+                                                    </a>
+                                                </td>
+                                                <td
+                                                    style={{
+                                                        fontFamily: 'Arial, Helvetica, sans-serif',
+                                                        fontSize: '7.5pt'
+                                                    }}
+                                                    align="center"
+                                                >
+                                                    <a target="_blank" href="https://search.freefind.com/find.html?si=14588965&m=0&p=0">
+                                                        sitemap
+                                                    </a>
+                                                </td>
+                                                <td
+                                                    style={{
+                                                        fontFamily: 'Arial, Helvetica, sans-serif',
+                                                        fontSize: '7.5pt'
+                                                    }}
+                                                    align="right"
+                                                >
+                                                    <a target="_blank" href="https://search.freefind.com/find.html?si=14588965&pid=a">
+                                                        advanced
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <form
+                                        style={{
+                                            margin: '0px',
+                                            marginTop: '2px'
+                                        }}
+                                        action="https://search.freefind.com/find.html"
+                                        method="get"
+                                        acceptCharset="utf-8"
+                                        target="_self"
+                                    >
+                                        <input type="hidden" name="si" defaultValue={14588965} />
+                                        <input type="hidden" name="pid" defaultValue="r" />
+                                        <input type="hidden" name="n" defaultValue={0} />
+                                        <input type="hidden" name="_charset_" defaultValue />
+                                        <input type="hidden" name="bcd" defaultValue="÷" />
+                                        <input type="text" name="query" size={15} />
+                                        <input type="submit" defaultValue="search" />
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                    style={{
+                                        textAlign: 'center',
+                                        fontFamily: 'Arial, Helvetica, sans-serif',
+                                        fontSize: '7.5pt',
+                                        paddingTop: '4px'
+                                    }}
+                                >
+                                    <a
+                                        style={{
+                                            textDecoration: 'none',
+                                            color: 'transparent'
+                                        }}
+                                        href="https://www.freefind.com"
+                                        rel="nofollow"
+                                    >
+                                        search engine
+                                    </a>
+                                    <a
+                                        style={{
+                                            textDecoration: 'none',
+                                            color: 'transparent'
+                                        }}
+                                        href="https://www.freefind.com"
+                                        rel="nofollow"
+                                    >
+                                        by
+                                        <span style={{ color: 'transparent' }}>freefind</span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="//pdfcrowd.com/url_to_pdf/?" onclick={`if(!this.p)href+='&url='+encodeURIComponent(location.href);this.p=1`}>
+                        {' '}
+                        Save to PDF{' '}
+                    </a>
                 </div>
                 <div className="inner">
                     <div id="search" className="inner"></div>
                     <div className="site-footer-inside">
                         <p className="site-info">
-                            {
-                                _.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
-                                    <span className="copyright">
-                                        {
-                                            htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null))
-                                        }</span>
-                                )
-                            }
-                            {
-                                _.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.links', null), (action, action_idx) => (
-                                    <ActionLink key={action_idx}
-                                        {...this.props}
-                                        action={action}></ActionLink>
-                                ))
-                            }
-                          </p>
-                        {
-                            _.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null) && (
-                                <div className="social-links">
-                                    {
-                                        _.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.social_links', null), (action, action_idx) => {
-                                            return <ActionLink key={action_idx}
-                                                {...this.props}
-                                                action={action} />;
-                                        })
-                                    }
-                                    </div>
-                            )
-                        }
-                     </div>
+                            {_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
+                                <span className="copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null))}</span>
+                            )}
+                            {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.links', null), (action, action_idx) => (
+                                <ActionLink key={action_idx} {...this.props} action={action}></ActionLink>
+                            ))}
+                        </p>
+                        {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null) && (
+                            <div className="social-links">
+                                {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.social_links', null), (action, action_idx) => {
+                                    return <ActionLink key={action_idx} {...this.props} action={action} />;
+                                })}
+                            </div>
+                        )}
+                    </div>
                 </div>
             </footer>
         );
     }
 }
 ```
+
 ---
 
 ##
 
->   It's a React component that renders a form field based on the props passed to it */
-/* It's a React component that renders a form field based on the props passed to it. */
-import _ from 'lodash';
-```jsx
+> It's a React component that renders a form field based on the props passed to it _/
+> /_ It's a React component that renders a form field based on the props passed to it. \*/
+> import \_ from 'lodash';
+
+````jsx
 import React from 'react';
 
 export default class FormField extends React.Component {
@@ -616,14 +643,16 @@ export default class Icon extends React.Component {
         );
     }
 }
-```
+````
+
 ---
 
 ##
 
->   The Body class is a React component that renders the page's body */
-import _ from "lodash";
-```jsx
+> The Body class is a React component that renders the page's body \*/
+> import \_ from "lodash";
+
+````jsx
 import React from "react";
 import { Helmet } from "react-helmet";
 import "../sass/main.scss";
@@ -713,7 +742,7 @@ export default class Body extends React.Component {
                 <div id="page" className="site">
                     <Header {...this.props}/>
                     <main id="content" className="site-content">
-                  
+
                         {
                         this.props.children
                     } </main>
@@ -860,15 +889,17 @@ export default class SectionDocs extends React.Component {
         );
     }
 }
-```
+````
+
 ---
 
 ##
 
->   It renders a section with a title, subtitle, and a grid of items */
+> It renders a section with a title, subtitle, and a grid of items \*/
 
-import _ from 'lodash';
-```jsx
+import \_ from 'lodash';
+
+````jsx
 import React from 'react';
 import { classNames, htmlToReact, Link, markdownify, withPrefix } from '../utils';
 import CtaButtons from './CtaButtons';
@@ -903,7 +934,7 @@ export default class SectionGrid extends React.Component {
                         <h3 className="grid-item-title line-left">
                           {_.get(item, 'title_url', null) ? (
                           <Link to={withPrefix(_.get(item, 'title_url', null))}>{_.get(item, 'title', null)}</Link>
-                          ) : 
+                          ) :
                           _.get(item, 'title', null)
                           }
                         </h3>
@@ -1050,3 +1081,4 @@ export default {
     Submenu,
     Layout
 };
+````

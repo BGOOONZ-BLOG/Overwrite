@@ -11,4 +11,3 @@ fs.appendFile(file, cat, (err) => {
     if (err) throw err;
     console.log('The file has been saved!');
 });
-
