@@ -2,8 +2,7 @@
 publish = "public"
 command = "npm run build"
 
-[dev]
-  command = "npm run develop" # Command to start your dev server
+
   targetPort = 3000 # # The port for your application server, framework or site generator
 
 
