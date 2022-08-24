@@ -3,7 +3,7 @@ PUBLIC X-Frame-Options: Allow
 
 
 
-https://bgoonz-blog.netlify.app/*
+https://overwritebgoonzblog.netlify.app/*
   X-Robots-Tag: noindex
 
 [[redirects]]

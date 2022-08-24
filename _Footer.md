@@ -8,7 +8,7 @@
 - [midway-commit](https://github.com/bgoonz/Overwritetree/92d88002bebcde66b47d8109222ac62c64fa9909)
 - [blog2.0 backups](https://gist.github.com/bgoonz/68203bca236305d93d75e87533c7e8b8)
 - [backup repo](https://github.com/bgoonz/blog-2.o-versions)
-- [autogen sitemap](https://bgoonz-blog.netlify.app/sitemap.xml)
+- [autogen sitemap](https://overwritebgoonzblog.netlify.app/sitemap.xml)
 -   [Home](https://github.com/bgoonz/Overwritewiki)
 -   [contentauthoring.md](https://github.com/bgoonz/Overwritewiki/contentauthoring.md)
 -   [inject3.md](https://github.com/bgoonz/Overwritewiki/inject3.md)

@@ -13,11 +13,11 @@ template: docs
 
     PRIVACY NOTICE
 
-- Visit our website at <https://bgoonz-blog.netlify.app/>
+- Visit our website at <https://overwritebgoonzblog.netlify.app/>
 
 <!---->
 
-- Use our Facebook application — <https://bgoonz-blog.netlify.app/>
+- Use our Facebook application — <https://overwritebgoonzblog.netlify.app/>
 
 <!---->
 
